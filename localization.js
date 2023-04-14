@@ -8,6 +8,8 @@
                 textTeamMenu: "Team",
                 textDonationMenu: "Donation",
                 textSupportMenu: "Support",
+                textHalvingPrefix: "Halving in",
+                textHalvingSuffix: "days", 
                 textViewCountdown: "View Countdown",
                 textHeadline: "The official Litecoin mobile Wallet",
                 textHalving: "Halving in 000 days.",
@@ -15,7 +17,7 @@
                 textYearCreated: "YEAR CREATED",
                 textMarketPrice: "CURRENT MARKET PRICE",
                 textMarketCap: "CURRENT MARKET CAP",
-                textLitecoinCirculating: "Litecoin has a circulating supply of 72,108,579  LTC coins and a max. supply of 84,000,000 LTC coins.",
+                textCirculatingPrefixSuffix: "Litecoin has a circulating supply of and a max. supply of ", 
                 textLearnHeader: "Learn more about Litecoin",
                 textLitecoinDescription: "Litecoin is one of the most established and stable cryptocurrencies in terms of transaction volumes and liquidity, and is commonly used as a means of exchange.",
                 textLitecoinDescriptionStyled: "It's a real currency used everywhere!",
@@ -52,13 +54,15 @@
                 textTeamMenu: "Tim",
                 textDonationMenu: "Donasi",
                 textSupportMenu: "Dukung Kami",
+                textHalvingPrefix: "Membagi dua",
+                textHalvingSuffix: "hari", 
                 textViewCountdown: "Lihat hitungan mundur",
                 textHeadline: "Dompet Litecoin resmi untuk Smartphone",
                 textSubheadline: "Litecoin telah beroperasi sejak 2011 tanpa downtime! Litewallet adalah dompet resmi yang didukung oleh Litecoin Foundation yang menawarkan cara sederhana dan aman untuk menggunakan Litecoin.",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating:  "",
+                textCirculatingPrefixSuffix: "Litecoin has a circulating supply of and a max. supply of ", 
                 textLearnHeader:  "",
                 textLitecoinDescription:  "",
                 textLitecoinDescriptionStyled:  "",
@@ -94,13 +98,15 @@
                 textTeamMenu: "Équipe",
                 textDonationMenu: "la donation",
                 textSupportMenu: "soutien",
+                textHalvingPrefix: "Réduire de moitié",
+                textHalvingSuffix: "jours", 
                 textViewCountdown: "Afficher le compte à rebours",
                 textHeadline: "Le portefeuille mobile Litecoin officiel",
                 textSubheadline: "Litecoin est opérationnel depuis 2011 sans temps d'arrêt ! Litewallet est le portefeuille officiel soutenu par la Fondation Litecoin qui offre des moyens simples et sûrs d'utiliser Litecoin.",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating:  "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader:  "",
                 textLitecoinDescription:  "",
                 textLitecoinDescriptionStyled:  "",
@@ -136,13 +142,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "", 
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -178,13 +186,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -220,13 +230,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -262,13 +274,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -304,13 +318,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -346,13 +362,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -388,13 +406,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -430,13 +450,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -472,13 +494,15 @@
                 textTeamMenu: "",
                 textDonationMenu: "",
                 textSupportMenu: "",
+                textHalvingPrefix: "",
+                textHalvingSuffix: "", 
                 textViewCountdown: "",
                 textHeadline: "",
                 textSubheadline: "",
                 textYearCreated: "",
                 textMarketPrice: "",
                 textMarketCap: "",
-                textLitecoinCirculating: "",
+                textCirculatingPrefixSuffix: "",
                 textLearnHeader: "",
                 textLitecoinDescription: "",
                 textLitecoinDescriptionStyled: "",
@@ -518,13 +542,15 @@
                     textTeamMenu.textContent = language.en.textTeamMenu;
                     textDonationMenu.textContent = language.en.textDonationMenu;
                     textSupportMenu.textContent = language.en.textSupportMenu;
+                    textHalvingPrefix.textContent = language.en.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.en.textHalvingSuffix;
                     textViewCountdown.textContent = language.en.textViewCountdown;
                     textHeadline.textContent = language.en.textHeadline;
                     textSubheadline.textContent = language.en.textSubheadline; 
                     textYearCreated.textContent = language.en.textYearCreated; 
                     textMarketPrice.textContent = language.en.textMarketPrice;  
                     textMarketCap.textContent  = language.en.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.en.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.en.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.en.textLearnHeader; 
                     textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
@@ -561,13 +587,15 @@
                     textTeamMenu.textContent = language.id.textTeamMenu;
                     textDonationMenu.textContent = language.id.textDonationMenu;
                     textSupportMenu.textContent = language.id.textSupportMenu;
+                    textHalvingPrefix.textContent = language.id.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.id.textHalvingSuffix;
                     textViewCountdown.textContent = language.id.textViewCountdown;
                     textHeadline.textContent = language.id.textHeadline;
                     textSubheadline.textContent = language.id.textSubheadline; 
                     textYearCreated.textContent = language.id.textYearCreated; 
                     textMarketPrice.textContent = language.id.textMarketPrice;  
                     textMarketCap.textContent  = language.id.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.id.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.id.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.id.textLearnHeader; 
                     textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
@@ -604,13 +632,15 @@
                     textTeamMenu.textContent = language.es.textTeamMenu;
                     textDonationMenu.textContent = language.es.textDonationMenu;
                     textSupportMenu.textContent = language.es.textSupportMenu;
+                    textHalvingPrefix.textContent = language.es.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.es.textHalvingSuffix;
                     textViewCountdown.textContent = language.es.textViewCountdown;
                     textHeadline.textContent = language.es.textHeadline;
                     textSubheadline.textContent = language.es.textSubheadline; 
                     textYearCreated.textContent = language.es.textYearCreated; 
                     textMarketPrice.textContent = language.es.textMarketPrice;  
                     textMarketCap.textContent  = language.es.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.es.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.es.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.es.textLearnHeader; 
                     textLitecoinDescription.textContent = language.es.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.es.textLitecoinDescriptionStyled; 
@@ -647,13 +677,15 @@
                     textTeamMenu.textContent = language.pt.textTeamMenu;
                     textDonationMenu.textContent = language.pt.textDonationMenu;
                     textSupportMenu.textContent = language.pt.textSupportMenu;
+                    textHalvingPrefix.textContent = language.pt.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.pt.textHalvingSuffix;
                     textViewCountdown.textContent = language.pt.textViewCountdown;
                     textHeadline.textContent = language.pt.textHeadline;
                     textSubheadline.textContent = language.pt.textSubheadline; 
                     textYearCreated.textContent = language.pt.textYearCreated; 
                     textMarketPrice.textContent = language.pt.textMarketPrice;  
                     textMarketCap.textContent  = language.pt.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.pt.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.pt.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.pt.textLearnHeader; 
                     textLitecoinDescription.textContent = language.pt.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.pt.textLitecoinDescriptionStyled; 
@@ -690,13 +722,15 @@
                     textTeamMenu.textContent = language.uk.textTeamMenu;
                     textDonationMenu.textContent = language.uk.textDonationMenu;
                     textSupportMenu.textContent = language.uk.textSupportMenu;
+                    textHalvingPrefix.textContent = language.uk.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.uk.textHalvingSuffix;
                     textViewCountdown.textContent = language.uk.textViewCountdown;
                     textHeadline.textContent = language.uk.textHeadline;
                     textSubheadline.textContent = language.uk.textSubheadline; 
                     textYearCreated.textContent = language.uk.textYearCreated; 
                     textMarketPrice.textContent = language.uk.textMarketPrice;  
                     textMarketCap.textContent  = language.uk.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.uk.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.uk.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.uk.textLearnHeader; 
                     textLitecoinDescription.textContent = language.uk.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.uk.textLitecoinDescriptionStyled; 
@@ -733,13 +767,15 @@
                     textTeamMenu.textContent = language.ru.textTeamMenu;
                     textDonationMenu.textContent = language.ru.textDonationMenu;
                     textSupportMenu.textContent = language.ru.textSupportMenu;
+                    textHalvingPrefix.textContent = language.ru.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.ru.textHalvingSuffix;
                     textViewCountdown.textContent = language.ru.textViewCountdown;
                     textHeadline.textContent = language.ru.textHeadline;
                     textSubheadline.textContent = language.ru.textSubheadline; 
                     textYearCreated.textContent = language.ru.textYearCreated; 
                     textMarketPrice.textContent = language.ru.textMarketPrice;  
                     textMarketCap.textContent  = language.ru.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.ru.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.ru.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.ru.textLearnHeader; 
                     textLitecoinDescription.textContent = language.ru.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.ru.textLitecoinDescriptionStyled; 
@@ -776,13 +812,15 @@
                     textTeamMenu.textContent = language.fr.textTeamMenu;
                     textDonationMenu.textContent = language.fr.textDonationMenu;
                     textSupportMenu.textContent = language.fr.textSupportMenu;
+                    textHalvingPrefix.textContent = language.fr.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.fr.textHalvingSuffix;
                     textViewCountdown.textContent = language.fr.textViewCountdown;
                     textHeadline.textContent = language.fr.textHeadline;
                     textSubheadline.textContent = language.fr.textSubheadline; 
                     textYearCreated.textContent = language.fr.textYearCreated; 
                     textMarketPrice.textContent = language.fr.textMarketPrice;  
                     textMarketCap.textContent  = language.fr.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.fr.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.fr.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.fr.textLearnHeader; 
                     textLitecoinDescription.textContent = language.fr.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.fr.textLitecoinDescriptionStyled; 
@@ -819,13 +857,15 @@
                     textTeamMenu.textContent = language.de.textTeamMenu;
                     textDonationMenu.textContent = language.de.textDonationMenu;
                     textSupportMenu.textContent = language.de.textSupportMenu;
+                    textHalvingPrefix.textContent = language.de.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.de.textHalvingSuffix;
                     textViewCountdown.textContent = language.de.textViewCountdown;
                     textHeadline.textContent = language.de.textHeadline;
                     textSubheadline.textContent = language.de.textSubheadline; 
                     textYearCreated.textContent = language.de.textYearCreated; 
                     textMarketPrice.textContent = language.de.textMarketPrice;  
                     textMarketCap.textContent  = language.de.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.de.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.de.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.de.textLearnHeader; 
                     textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
@@ -862,13 +902,15 @@
                     textTeamMenu.textContent = language.zhCN.textTeamMenu;
                     textDonationMenu.textContent = language.zhCN.textDonationMenu;
                     textSupportMenu.textContent = language.zhCN.textSupportMenu;
+                    textHalvingPrefix.textContent = language.zhCN.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.zhCN.textHalvingSuffix;
                     textViewCountdown.textContent = language.zhCN.textViewCountdown;
                     textHeadline.textContent = language.zhCN.textHeadline;
                     textSubheadline.textContent = language.zhCN.textSubheadline; 
                     textYearCreated.textContent = language.zhCN.textYearCreated; 
                     textMarketPrice.textContent = language.zhCN.textMarketPrice;  
                     textMarketCap.textContent  = language.zhCN.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.zhCN.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.zhCN.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.zhCN.textLearnHeader; 
                     textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
@@ -905,13 +947,15 @@
                     textTeamMenu.textContent = language.zhTW.textTeamMenu;
                     textDonationMenu.textContent = language.zhTW.textDonationMenu;
                     textSupportMenu.textContent = language.zhTW.textSupportMenu;
+                    textHalvingPrefix.textContent = language.zhTW.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.zhTW.textHalvingSuffix;
                     textViewCountdown.textContent = language.zhTW.textViewCountdown;
                     textHeadline.textContent = language.zhTW.textHeadline;
                     textSubheadline.textContent = language.zhTW.textSubheadline; 
                     textYearCreated.textContent = language.zhTW.textYearCreated; 
                     textMarketPrice.textContent = language.zhTW.textMarketPrice;  
                     textMarketCap.textContent  = language.zhTW.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.zhTW.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.zhTW.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.zhTW.textLearnHeader; 
                     textLitecoinDescription.textContent = language.zhTW.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.zhTW.textLitecoinDescriptionStyled; 
@@ -948,13 +992,15 @@
                     textTeamMenu.textContent = language.ko.textTeamMenu;
                     textDonationMenu.textContent = language.ko.textDonationMenu;
                     textSupportMenu.textContent = language.ko.textSupportMenu;
+                    textHalvingPrefix.textContent = language.ko.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.ko.textHalvingSuffix;
                     textViewCountdown.textContent = language.ko.textViewCountdown;
                     textHeadline.textContent = language.ko.textHeadline;
                     textSubheadline.textContent = language.ko.textSubheadline; 
                     textYearCreated.textContent = language.ko.textYearCreated; 
                     textMarketPrice.textContent = language.ko.textMarketPrice;  
                     textMarketCap.textContent  = language.ko.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.ko.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.ko.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.ko.textLearnHeader; 
                     textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
@@ -991,13 +1037,15 @@
                     textTeamMenu.textContent = language.tr.textTeamMenu;
                     textDonationMenu.textContent = language.tr.textDonationMenu;
                     textSupportMenu.textContent = language.tr.textSupportMenu;
+                    textHalvingPrefix.textContent = language.tr.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.tr.textHalvingSuffix;
                     textViewCountdown.textContent = language.tr.textViewCountdown;
                     textHeadline.textContent = language.tr.textHeadline;
                     textSubheadline.textContent = language.tr.textSubheadline; 
                     textYearCreated.textContent = language.tr.textYearCreated; 
                     textMarketPrice.textContent = language.tr.textMarketPrice;  
                     textMarketCap.textContent  = language.tr.textMarketCap; 
-                    textLitecoinCirculating.textContent  = language.tr.textLitecoinCirculating; 
+                    textCirculatingPrefixSuffix.textContent = language.tr.textCirculatingPrefixSuffix; 
                     textLearnHeader.textContent = language.tr.textLearnHeader; 
                     textLitecoinDescription.textContent = language.tr.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.tr.textLitecoinDescriptionStyled; 
