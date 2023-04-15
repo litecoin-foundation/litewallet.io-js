@@ -113,7 +113,7 @@
                 textLitecoinDescriptionStyled: "C'est une véritable monnaie utilisée partout!",
                 textZeroTitle: "Zéro temps d'arrêt",
                 textMWEBTitle: "Implémentation MWEB",
-                textCheapTitle: "Prix ​​pas cher",
+                textCheapTitle: "Prix pas cher",
                 textFastTitle: "Transactions rapides",
                 textZeroDetail: "Depuis 2011, Litecoin est à la tête de l'espace des crypto-monnaies en tant que monnaie sécurisée, décentralisée et innovante.",
                 textMWEBDetail: "MWEB garde le solde de votre portefeuille caché. Cela vous permet d'envoyer des Litecoins sans que des étrangers ne voient ce qu'il y a dans votre portefeuille.",
@@ -123,20 +123,21 @@
                 textBitrefillDetail: "Principal magasin de commerce électronique crypto qui permet aux utilisateurs de 'vivre sur Crypto'.",
                 textMoonpayDetail: "MoonPay est actif dans plus de 160 pays et bénéficie de la confiance de plus de 300 portefeuilles, sites Web et applications de premier plan pour accepter les paiements et lutter contre la fraude.",
                 textSimplexDetail: "Puissant. Transparent. Impactant. En tant que leader du secteur, nous donnons à des centaines de partenaires les moyens de permettre à des millions de personnes d'acheter des milliards de dollars d'actifs numériques.",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: "",
+                textUDDetail: "Posséder votre identité dans le monde numérique. C'est ton nom. Posséder. Posséder votre identité dans le monde numérique. Commencez avec un domaine Web3.",
+                textLitecoinCreatorHeadline: "Alors qu'il était chez Google, Charlie s'est intéressé à Bitcoin en rencontrant Mike Hearn et en obtenant son premier Bitcoin. Il a lancé le Litecoin en octobre 2011. Il a fondé la Fondation Litecoin en 2016, une organisation à but non lucratif dont la mission est d'enseigner au monde les avantages du Litecoin.",
+                textLitecoinCreatorSubheadline: "Travaillant en étroite collaboration avec l'équipe Litewallet, Charlie et Kerry discutent des moyens d'augmenter le nombre d'utilisateurs actifs tout en offrant les fonctionnalités que les utilisateurs souhaitent le plus. L'équipe Litewallet est mondiale avec un budget modeste et un grand nombre de concurrents bien financés offrant de nombreux types de crypto.",
+                textTeamHeadline: "C'est un travail d'équipe",
+                textTeamSubheadline: "Litewallet a un chef d'équipe à plein temps et un groupe de volontaires mondiaux. Vous souhaitez en savoir plus sur l'espace Litecoin tout en améliorant vos connaissances sur la crypto-monnaie ?",
+                textVolunteerHeadline: "Postulez pour devenir bénévole",
+                textDonationHeadline: "Renforcez l'avenir de Litecoin avec votre don",
+                textDonationSubheadline: "Votre don aux développeurs d'applications Litewallet contribuera à alimenter le développement de fonctionnalités de pointe et à repousser les limites de ce qui est possible. Offrez le progrès et soutenez l'équipe dès maintenant!",
+                textDonationScan: "Scannez pour donner!",
+                textDonationsSend: "Envoyez LTC à cette adresse:",
+                textFooterHeadline: "Litewallet, le portefeuille officiel Litecoin",
+                textRepoHeadline: "Le code Litewallet est open source et nous utilisons Github pour maintenir la base de code.",
+                textSocialHeadline: "Litewallet social",
+                textRepositories: "Référentiels",
+                textFooterSubheadline: "Aller en haut",
             },
             es: {
                 textAboutMenu: "",
@@ -175,6 +176,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -310,6 +312,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -354,6 +357,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -398,6 +402,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -442,6 +447,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -486,6 +492,7 @@
                 textVolunteerHeadline: "",
                 textDonationHeadline: "",
                 textDonationSubheadline: "",
+                textDonationScan: "",
                 textDonationsSend: "",
                 textFooterHeadline: "",
                 textRepoHeadline: "",
@@ -579,6 +586,7 @@
                     textVolunteerHeadline.textContent = language.en.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.en.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.en.textDonationSubheadline; 
+                    textDonationScan.textContent = language.en.textDonationScan;
                     textDonationsSend.textContent = language.en.textDonationsSend; 
                     textFooterHeadline.textContent = language.en.textFooterHeadline; 
                     textRepoHeadline.textContent = language.en.textRepoHeadline; 
@@ -624,6 +632,7 @@
                     textVolunteerHeadline.textContent = language.id.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.id.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.id.textDonationSubheadline; 
+                    textDonationScan.textContent = language.id.textDonationScan;
                     textDonationsSend.textContent = language.id.textDonationsSend; 
                     textFooterHeadline.textContent = language.id.textFooterHeadline; 
                     textRepoHeadline.textContent = language.id.textRepoHeadline; 
@@ -669,6 +678,7 @@
                     textVolunteerHeadline.textContent = language.es.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.es.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.es.textDonationSubheadline; 
+                    textDonationScan.textContent = language.es.textDonationScan;
                     textDonationsSend.textContent = language.es.textDonationsSend; 
                     textFooterHeadline.textContent = language.es.textFooterHeadline; 
                     textRepoHeadline.textContent = language.es.textRepoHeadline; 
@@ -714,6 +724,7 @@
                     textVolunteerHeadline.textContent = language.pt.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.pt.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.pt.textDonationSubheadline; 
+                    textDonationScan.textContent = language.pt.textDonationScan;
                     textDonationsSend.textContent = language.pt.textDonationsSend; 
                     textFooterHeadline.textContent = language.pt.textFooterHeadline; 
                     textRepoHeadline.textContent = language.pt.textRepoHeadline; 
@@ -759,6 +770,7 @@
                     textVolunteerHeadline.textContent = language.uk.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.uk.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.uk.textDonationSubheadline; 
+                    textDonationScan.textContent = language.uk.textDonationScan;
                     textDonationsSend.textContent = language.uk.textDonationsSend; 
                     textFooterHeadline.textContent = language.uk.textFooterHeadline; 
                     textRepoHeadline.textContent = language.uk.textRepoHeadline; 
@@ -804,6 +816,7 @@
                     textVolunteerHeadline.textContent = language.ru.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.ru.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.ru.textDonationSubheadline; 
+                    textDonationScan.textContent = language.ru.textDonationScan;
                     textDonationsSend.textContent = language.ru.textDonationsSend; 
                     textFooterHeadline.textContent = language.ru.textFooterHeadline; 
                     textRepoHeadline.textContent = language.ru.textRepoHeadline; 
@@ -849,6 +862,7 @@
                     textVolunteerHeadline.textContent = language.fr.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.fr.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.fr.textDonationSubheadline; 
+                    textDonationScan.textContent = language.fr.textDonationScan;
                     textDonationsSend.textContent = language.fr.textDonationsSend; 
                     textFooterHeadline.textContent = language.fr.textFooterHeadline; 
                     textRepoHeadline.textContent = language.fr.textRepoHeadline; 
@@ -894,6 +908,7 @@
                     textVolunteerHeadline.textContent = language.de.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.de.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.de.textDonationSubheadline; 
+                    textDonationScan.textContent = language.de.textDonationScan;
                     textDonationsSend.textContent = language.de.textDonationsSend; 
                     textFooterHeadline.textContent = language.de.textFooterHeadline; 
                     textRepoHeadline.textContent = language.de.textRepoHeadline; 
@@ -938,7 +953,8 @@
                     textTeamSubheadline.textContent = language.zhCN.textTeamSubheadline; 
                     textVolunteerHeadline.textContent = language.zhCN.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.zhCN.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline; 
+                    textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline;
+                    textDonationScan.textContent = language.zhCN.textDonationScan; 
                     textDonationsSend.textContent = language.zhCN.textDonationsSend; 
                     textFooterHeadline.textContent = language.zhCN.textFooterHeadline; 
                     textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
@@ -983,7 +999,8 @@
                     textTeamSubheadline.textContent = language.zhTW.textTeamSubheadline; 
                     textVolunteerHeadline.textContent = language.zhTW.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.zhTW.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.zhTW.textDonationSubheadline; 
+                    textDonationSubheadline.textContent = language.zhTW.textDonationSubheadline;
+                    textDonationScan.textContent = language.zhTW.textDonationScan; 
                     textDonationsSend.textContent = language.zhTW.textDonationsSend; 
                     textFooterHeadline.textContent = language.zhTW.textFooterHeadline; 
                     textRepoHeadline.textContent = language.zhTW.textRepoHeadline; 
@@ -1029,6 +1046,7 @@
                     textVolunteerHeadline.textContent = language.ko.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.ko.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.ko.textDonationSubheadline; 
+                    textDonationScan.textContent = language.ko.textDonationScan;
                     textDonationsSend.textContent = language.ko.textDonationsSend; 
                     textFooterHeadline.textContent = language.ko.textFooterHeadline; 
                     textRepoHeadline.textContent = language.ko.textRepoHeadline; 
@@ -1074,6 +1092,7 @@
                     textVolunteerHeadline.textContent = language.tr.textVolunteerHeadline; 
                     textDonationHeadline.textContent = language.tr.textDonationHeadline; 
                     textDonationSubheadline.textContent = language.tr.textDonationSubheadline; 
+                    textDonationScan.textContent = language.tr.textDonationScan;
                     textDonationsSend.textContent = language.tr.textDonationsSend; 
                     textFooterHeadline.textContent = language.tr.textFooterHeadline; 
                     textRepoHeadline.textContent = language.tr.textRepoHeadline; 
