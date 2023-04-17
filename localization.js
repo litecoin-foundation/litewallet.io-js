@@ -548,8 +548,12 @@
             }
         };
 
-        if (window.location.hash) {
-                if (window.location.hash === "#en") { //#1
+        var currentLanguage = window.location.hash;
+
+        if (window.location.hash) { 
+            //Using switch statement reduces the time from O(n) to O(1)
+            switch (currentLanguage) {
+                case "en":
                     document.querySelector(".selected").innerText = "English";
                     textAboutMenu.textContent  = language.en.textAboutMenu;
                     textTeamMenu.textContent = language.en.textTeamMenu;
@@ -594,54 +598,54 @@
                     textSocialHeadline.textContent = language.en.textSocialHeadline; 
                     textRepositories.textContent = language.en.textRepositories; 
                     textFooterSubheadline = language.en.textFooterSubheadline;  
-                }
-                else if(window.location.hash === "#id") { //#2
+                    break;
+                case "id":
                     document.querySelector(".selected").innerText = "Bahasa Indonesia";
-                    textAboutMenu.textContent  = language.id.textAboutMenu;
-                    textTeamMenu.textContent = language.id.textTeamMenu;
-                    textDonationMenu.textContent = language.id.textDonationMenu;
-                    textSupportMenu.textContent = language.id.textSupportMenu;
-                    textHalvingPrefix.textContent = language.id.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.id.textHalvingSuffix;
-                    textViewCountdown.textContent = language.id.textViewCountdown;
-                    textHeadline.textContent = language.id.textHeadline;
-                    textSubheadline.textContent = language.id.textSubheadline; 
-                    textYearCreated.textContent = language.id.textYearCreated; 
-                    textMarketPrice.textContent = language.id.textMarketPrice;  
-                    textMarketCap.textContent  = language.id.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.id.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.id.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.id.textZeroTitle; 
-                    textMWEBTitle.textContent = language.id.textMWEBTitle; 
-                    textCheapTitle.textContent = language.id.textCheapTitle; 
-                    textFastTitle.textContent = language.id.textFastTitle; 
-                    textZeroDetail.textContent = language.id.textZeroDetail; 
-                    textMWEBDetail.textContent = language.id.textMWEBDetail; 
-                    textCheapDetail.textContent = language.id.textCheapDetail; 
-                    textFastDetail.textContent = language.id.textFastDetail; 
-                    textPartnerHeadline.textContent = language.id.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.id.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.id.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.id.textSimplexDetail; 
-                    textUDDetail.textContent = language.id.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.id.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.id.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.id.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.id.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.id.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.id.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.id.textDonationSubheadline; 
-                    textDonationScan.textContent = language.id.textDonationScan;
-                    textDonationsSend.textContent = language.id.textDonationsSend; 
-                    textFooterHeadline.textContent = language.id.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.id.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.id.textSocialHeadline; 
-                    textRepositories.textContent = language.id.textRepositories; 
-                    textFooterSubheadline = language.id.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#es") { //#3
+                    textAboutMenu.textContent  = language.en.textAboutMenu;
+                    textTeamMenu.textContent = language.en.textTeamMenu;
+                    textDonationMenu.textContent = language.en.textDonationMenu;
+                    textSupportMenu.textContent = language.en.textSupportMenu;
+                    textHalvingPrefix.textContent = language.en.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.en.textHalvingSuffix;
+                    textViewCountdown.textContent = language.en.textViewCountdown;
+                    textHeadline.textContent = language.en.textHeadline;
+                    textSubheadline.textContent = language.en.textSubheadline; 
+                    textYearCreated.textContent = language.en.textYearCreated; 
+                    textMarketPrice.textContent = language.en.textMarketPrice;  
+                    textMarketCap.textContent  = language.en.textMarketCap; 
+                    textCirculatingPrefixSuffix.textContent = language.en.textCirculatingPrefixSuffix; 
+                    textLearnHeader.textContent = language.en.textLearnHeader; 
+                    textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
+                    textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
+                    textZeroTitle.textContent = language.en.textZeroTitle; 
+                    textMWEBTitle.textContent = language.en.textMWEBTitle; 
+                    textCheapTitle.textContent = language.en.textCheapTitle; 
+                    textFastTitle.textContent = language.en.textFastTitle; 
+                    textZeroDetail.textContent = language.en.textZeroDetail; 
+                    textMWEBDetail.textContent = language.en.textMWEBDetail; 
+                    textCheapDetail.textContent = language.en.textCheapDetail; 
+                    textFastDetail.textContent = language.en.textFastDetail; 
+                    textPartnerHeadline.textContent = language.en.textPartnerHeadline; 
+                    textBitrefillDetail.textContent = language.en.textBitrefillDetail; 
+                    textMoonpayDetail.textContent = language.en.textMoonpayDetail; 
+                    textSimplexDetail.textContent = language.en.textSimplexDetail; 
+                    textUDDetail.textContent = language.en.textUDDetail; 
+                    textLitecoinCreatorHeadline.textContent = language.en.textLitecoinCreatorHeadline; 
+                    textLitecoinCreatorSubheadline.textContent = language.en.textLitecoinCreatorSubheadline; 
+                    textTeamHeadline.textContent = language.en.textTeamHeadline; 
+                    textTeamSubheadline.textContent = language.en.textTeamSubheadline; 
+                    textVolunteerHeadline.textContent = language.en.textVolunteerHeadline; 
+                    textDonationHeadline.textContent = language.en.textDonationHeadline; 
+                    textDonationSubheadline.textContent = language.en.textDonationSubheadline; 
+                    textDonationScan.textContent = language.en.textDonationScan;
+                    textDonationsSend.textContent = language.en.textDonationsSend; 
+                    textFooterHeadline.textContent = language.en.textFooterHeadline; 
+                    textRepoHeadline.textContent = language.en.textRepoHeadline; 
+                    textSocialHeadline.textContent = language.en.textSocialHeadline; 
+                    textRepositories.textContent = language.en.textRepositories; 
+                    textFooterSubheadline = language.en.textFooterSubheadline;  
+                    break;
+                case "es":
                     document.querySelector(".selected").innerText = "Español";
                     textAboutMenu.textContent  = language.es.textAboutMenu;
                     textTeamMenu.textContent = language.es.textTeamMenu;
@@ -685,9 +689,55 @@
                     textRepoHeadline.textContent = language.es.textRepoHeadline; 
                     textSocialHeadline.textContent = language.es.textSocialHeadline; 
                     textRepositories.textContent = language.es.textRepositories; 
-                    textFooterSubheadline = language.es.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#pt") { //#4
+                    textFooterSubheadline = language.es.textFooterSubheadline;
+                    break;
+                case "de":
+                    document.querySelector(".selected").innerText = "Deutsch";
+                    textAboutMenu.textContent  = language.de.textAboutMenu;
+                    textTeamMenu.textContent = language.de.textTeamMenu;
+                    textDonationMenu.textContent = language.de.textDonationMenu;
+                    textSupportMenu.textContent = language.de.textSupportMenu;
+                    textHalvingPrefix.textContent = language.de.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.de.textHalvingSuffix;
+                    textViewCountdown.textContent = language.de.textViewCountdown;
+                    textHeadline.textContent = language.de.textHeadline;
+                    textSubheadline.textContent = language.de.textSubheadline; 
+                    textYearCreated.textContent = language.de.textYearCreated; 
+                    textMarketPrice.textContent = language.de.textMarketPrice;  
+                    textMarketCap.textContent  = language.de.textMarketCap; 
+                    textCirculatingPrefixSuffix.textContent = language.de.textCirculatingPrefixSuffix; 
+                    textLearnHeader.textContent = language.de.textLearnHeader; 
+                    textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
+                    textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
+                    textZeroTitle.textContent = language.de.textZeroTitle; 
+                    textMWEBTitle.textContent = language.de.textMWEBTitle; 
+                    textCheapTitle.textContent = language.de.textCheapTitle; 
+                    textFastTitle.textContent = language.de.textFastTitle; 
+                    textZeroDetail.textContent = language.de.textZeroDetail; 
+                    textMWEBDetail.textContent = language.de.textMWEBDetail; 
+                    textCheapDetail.textContent = language.de.textCheapDetail; 
+                    textFastDetail.textContent = language.de.textFastDetail; 
+                    textPartnerHeadline.textContent = language.de.textPartnerHeadline; 
+                    textBitrefillDetail.textContent = language.de.textBitrefillDetail; 
+                    textMoonpayDetail.textContent = language.de.textMoonpayDetail; 
+                    textSimplexDetail.textContent = language.de.textSimplexDetail; 
+                    textUDDetail.textContent = language.de.textUDDetail; 
+                    textLitecoinCreatorHeadline.textContent = language.de.textLitecoinCreatorHeadline; 
+                    textLitecoinCreatorSubheadline.textContent = language.de.textLitecoinCreatorSubheadline; 
+                    textTeamHeadline.textContent = language.de.textTeamHeadline; 
+                    textTeamSubheadline.textContent = language.de.textTeamSubheadline; 
+                    textVolunteerHeadline.textContent = language.de.textVolunteerHeadline; 
+                    textDonationHeadline.textContent = language.de.textDonationHeadline; 
+                    textDonationSubheadline.textContent = language.de.textDonationSubheadline; 
+                    textDonationScan.textContent = language.de.textDonationScan;
+                    textDonationsSend.textContent = language.de.textDonationsSend; 
+                    textFooterHeadline.textContent = language.de.textFooterHeadline; 
+                    textRepoHeadline.textContent = language.de.textRepoHeadline; 
+                    textSocialHeadline.textContent = language.de.textSocialHeadline; 
+                    textRepositories.textContent = language.de.textRepositories; 
+                    textFooterSubheadline = language.de.textFooterSubheadline;
+                    break;
+                case "pt":
                     document.querySelector(".selected").innerText = "Portuguese";
                     textAboutMenu.textContent  = language.pt.textAboutMenu;
                     textTeamMenu.textContent = language.pt.textTeamMenu;
@@ -732,8 +782,54 @@
                     textSocialHeadline.textContent = language.pt.textSocialHeadline; 
                     textRepositories.textContent = language.pt.textRepositories; 
                     textFooterSubheadline = language.pt.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#uk") { //#5
+                    break;
+                case "ko":
+                    document.querySelector(".selected").innerText = "한국인";
+                    textAboutMenu.textContent  = language.ko.textAboutMenu;
+                    textTeamMenu.textContent = language.ko.textTeamMenu;
+                    textDonationMenu.textContent = language.ko.textDonationMenu;
+                    textSupportMenu.textContent = language.ko.textSupportMenu;
+                    textHalvingPrefix.textContent = language.ko.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.ko.textHalvingSuffix;
+                    textViewCountdown.textContent = language.ko.textViewCountdown;
+                    textHeadline.textContent = language.ko.textHeadline;
+                    textSubheadline.textContent = language.ko.textSubheadline; 
+                    textYearCreated.textContent = language.ko.textYearCreated; 
+                    textMarketPrice.textContent = language.ko.textMarketPrice;  
+                    textMarketCap.textContent  = language.ko.textMarketCap; 
+                    textCirculatingPrefixSuffix.textContent = language.ko.textCirculatingPrefixSuffix; 
+                    textLearnHeader.textContent = language.ko.textLearnHeader; 
+                    textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
+                    textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
+                    textZeroTitle.textContent = language.ko.textZeroTitle; 
+                    textMWEBTitle.textContent = language.ko.textMWEBTitle; 
+                    textCheapTitle.textContent = language.ko.textCheapTitle; 
+                    textFastTitle.textContent = language.ko.textFastTitle; 
+                    textZeroDetail.textContent = language.ko.textZeroDetail; 
+                    textMWEBDetail.textContent = language.ko.textMWEBDetail; 
+                    textCheapDetail.textContent = language.ko.textCheapDetail; 
+                    textFastDetail.textContent = language.ko.textFastDetail; 
+                    textPartnerHeadline.textContent = language.ko.textPartnerHeadline; 
+                    textBitrefillDetail.textContent = language.ko.textBitrefillDetail; 
+                    textMoonpayDetail.textContent = language.ko.textMoonpayDetail; 
+                    textSimplexDetail.textContent = language.ko.textSimplexDetail; 
+                    textUDDetail.textContent = language.ko.textUDDetail; 
+                    textLitecoinCreatorHeadline.textContent = language.ko.textLitecoinCreatorHeadline; 
+                    textLitecoinCreatorSubheadline.textContent = language.ko.textLitecoinCreatorSubheadline; 
+                    textTeamHeadline.textContent = language.ko.textTeamHeadline; 
+                    textTeamSubheadline.textContent = language.ko.textTeamSubheadline; 
+                    textVolunteerHeadline.textContent = language.ko.textVolunteerHeadline; 
+                    textDonationHeadline.textContent = language.ko.textDonationHeadline; 
+                    textDonationSubheadline.textContent = language.ko.textDonationSubheadline; 
+                    textDonationScan.textContent = language.ko.textDonationScan;
+                    textDonationsSend.textContent = language.ko.textDonationsSend; 
+                    textFooterHeadline.textContent = language.ko.textFooterHeadline; 
+                    textRepoHeadline.textContent = language.ko.textRepoHeadline; 
+                    textSocialHeadline.textContent = language.ko.textSocialHeadline; 
+                    textRepositories.textContent = language.ko.textRepositories; 
+                    textFooterSubheadline = language.ko.textFooterSubheadline;
+                    break;
+                case "uk":
                     document.querySelector(".selected").innerText = "українська";
                     textAboutMenu.textContent  = language.uk.textAboutMenu;
                     textTeamMenu.textContent = language.uk.textTeamMenu;
@@ -777,9 +873,9 @@
                     textRepoHeadline.textContent = language.uk.textRepoHeadline; 
                     textSocialHeadline.textContent = language.uk.textSocialHeadline; 
                     textRepositories.textContent = language.uk.textRepositories; 
-                    textFooterSubheadline = language.uk.textFooterSubheadline;  
-                } 
-                else if (window.location.hash === "#ru") { //#6
+                    textFooterSubheadline = language.uk.textFooterSubheadline;
+                    break;
+                case "ru":
                     document.querySelector(".selected").innerText = "Русский";
                     textAboutMenu.textContent  = language.ru.textAboutMenu;
                     textTeamMenu.textContent = language.ru.textTeamMenu;
@@ -823,9 +919,9 @@
                     textRepoHeadline.textContent = language.ru.textRepoHeadline; 
                     textSocialHeadline.textContent = language.ru.textSocialHeadline; 
                     textRepositories.textContent = language.ru.textRepositories; 
-                    textFooterSubheadline = language.ru.textFooterSubheadline;  
-                }  
-                else if (window.location.hash === "#fr") { //#7
+                    textFooterSubheadline = language.ru.textFooterSubheadline;
+                    break;
+                case "fr":
                     document.querySelector(".selected").innerText = "Français";
                     textAboutMenu.textContent  = language.fr.textAboutMenu;
                     textTeamMenu.textContent = language.fr.textTeamMenu;
@@ -870,100 +966,8 @@
                     textSocialHeadline.textContent = language.fr.textSocialHeadline; 
                     textRepositories.textContent = language.fr.textRepositories; 
                     textFooterSubheadline = language.fr.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#de") { //#8
-                    document.querySelector(".selected").innerText = "Deutsch";
-                    textAboutMenu.textContent  = language.de.textAboutMenu;
-                    textTeamMenu.textContent = language.de.textTeamMenu;
-                    textDonationMenu.textContent = language.de.textDonationMenu;
-                    textSupportMenu.textContent = language.de.textSupportMenu;
-                    textHalvingPrefix.textContent = language.de.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.de.textHalvingSuffix;
-                    textViewCountdown.textContent = language.de.textViewCountdown;
-                    textHeadline.textContent = language.de.textHeadline;
-                    textSubheadline.textContent = language.de.textSubheadline; 
-                    textYearCreated.textContent = language.de.textYearCreated; 
-                    textMarketPrice.textContent = language.de.textMarketPrice;  
-                    textMarketCap.textContent  = language.de.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.de.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.de.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.de.textZeroTitle; 
-                    textMWEBTitle.textContent = language.de.textMWEBTitle; 
-                    textCheapTitle.textContent = language.de.textCheapTitle; 
-                    textFastTitle.textContent = language.de.textFastTitle; 
-                    textZeroDetail.textContent = language.de.textZeroDetail; 
-                    textMWEBDetail.textContent = language.de.textMWEBDetail; 
-                    textCheapDetail.textContent = language.de.textCheapDetail; 
-                    textFastDetail.textContent = language.de.textFastDetail; 
-                    textPartnerHeadline.textContent = language.de.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.de.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.de.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.de.textSimplexDetail; 
-                    textUDDetail.textContent = language.de.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.de.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.de.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.de.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.de.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.de.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.de.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.de.textDonationSubheadline; 
-                    textDonationScan.textContent = language.de.textDonationScan;
-                    textDonationsSend.textContent = language.de.textDonationsSend; 
-                    textFooterHeadline.textContent = language.de.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.de.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.de.textSocialHeadline; 
-                    textRepositories.textContent = language.de.textRepositories; 
-                    textFooterSubheadline = language.de.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#zhCN") { //#9
-                    document.querySelector(".selected").innerText = "中国人";
-                    textAboutMenu.textContent  = language.zhCN.textAboutMenu;
-                    textTeamMenu.textContent = language.zhCN.textTeamMenu;
-                    textDonationMenu.textContent = language.zhCN.textDonationMenu;
-                    textSupportMenu.textContent = language.zhCN.textSupportMenu;
-                    textHalvingPrefix.textContent = language.zhCN.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.zhCN.textHalvingSuffix;
-                    textViewCountdown.textContent = language.zhCN.textViewCountdown;
-                    textHeadline.textContent = language.zhCN.textHeadline;
-                    textSubheadline.textContent = language.zhCN.textSubheadline; 
-                    textYearCreated.textContent = language.zhCN.textYearCreated; 
-                    textMarketPrice.textContent = language.zhCN.textMarketPrice;  
-                    textMarketCap.textContent  = language.zhCN.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.zhCN.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.zhCN.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.zhCN.textZeroTitle; 
-                    textMWEBTitle.textContent = language.zhCN.textMWEBTitle; 
-                    textCheapTitle.textContent = language.zhCN.textCheapTitle; 
-                    textFastTitle.textContent = language.zhCN.textFastTitle; 
-                    textZeroDetail.textContent = language.zhCN.textZeroDetail; 
-                    textMWEBDetail.textContent = language.zhCN.textMWEBDetail; 
-                    textCheapDetail.textContent = language.zhCN.textCheapDetail; 
-                    textFastDetail.textContent = language.zhCN.textFastDetail; 
-                    textPartnerHeadline.textContent = language.zhCN.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.zhCN.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.zhCN.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.zhCN.textSimplexDetail; 
-                    textUDDetail.textContent = language.zhCN.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.zhCN.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.zhCN.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.zhCN.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.zhCN.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.zhCN.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.zhCN.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline;
-                    textDonationScan.textContent = language.zhCN.textDonationScan; 
-                    textDonationsSend.textContent = language.zhCN.textDonationsSend; 
-                    textFooterHeadline.textContent = language.zhCN.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.zhCN.textSocialHeadline; 
-                    textRepositories.textContent = language.zhCN.textRepositories; 
-                    textFooterSubheadline = language.zhCN.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#zhTW") { //#10
+                    break;
+                case "zhTW":
                     document.querySelector(".selected").innerText = "中國人";
                     textAboutMenu.textContent  = language.zhTW.textAboutMenu;
                     textTeamMenu.textContent = language.zhTW.textTeamMenu;
@@ -1008,54 +1012,54 @@
                     textSocialHeadline.textContent = language.zhTW.textSocialHeadline; 
                     textRepositories.textContent = language.zhTW.textRepositories; 
                     textFooterSubheadline = language.zhTW.textFooterSubheadline;  
-                }
-                else if (window.location.hash === "#ko") { //#11
-                    document.querySelector(".selected").innerText = "한국인";
-                    textAboutMenu.textContent  = language.ko.textAboutMenu;
-                    textTeamMenu.textContent = language.ko.textTeamMenu;
-                    textDonationMenu.textContent = language.ko.textDonationMenu;
-                    textSupportMenu.textContent = language.ko.textSupportMenu;
-                    textHalvingPrefix.textContent = language.ko.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.ko.textHalvingSuffix;
-                    textViewCountdown.textContent = language.ko.textViewCountdown;
-                    textHeadline.textContent = language.ko.textHeadline;
-                    textSubheadline.textContent = language.ko.textSubheadline; 
-                    textYearCreated.textContent = language.ko.textYearCreated; 
-                    textMarketPrice.textContent = language.ko.textMarketPrice;  
-                    textMarketCap.textContent  = language.ko.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.ko.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.ko.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.ko.textZeroTitle; 
-                    textMWEBTitle.textContent = language.ko.textMWEBTitle; 
-                    textCheapTitle.textContent = language.ko.textCheapTitle; 
-                    textFastTitle.textContent = language.ko.textFastTitle; 
-                    textZeroDetail.textContent = language.ko.textZeroDetail; 
-                    textMWEBDetail.textContent = language.ko.textMWEBDetail; 
-                    textCheapDetail.textContent = language.ko.textCheapDetail; 
-                    textFastDetail.textContent = language.ko.textFastDetail; 
-                    textPartnerHeadline.textContent = language.ko.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.ko.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.ko.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.ko.textSimplexDetail; 
-                    textUDDetail.textContent = language.ko.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.ko.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.ko.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.ko.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.ko.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.ko.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.ko.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.ko.textDonationSubheadline; 
-                    textDonationScan.textContent = language.ko.textDonationScan;
-                    textDonationsSend.textContent = language.ko.textDonationsSend; 
-                    textFooterHeadline.textContent = language.ko.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.ko.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.ko.textSocialHeadline; 
-                    textRepositories.textContent = language.ko.textRepositories; 
-                    textFooterSubheadline = language.ko.textFooterSubheadline;  
-                } 
-                else if(window.location.hash === "#tr") { //#12
+                    break;
+                case "zhCN":
+                    document.querySelector(".selected").innerText = "中国人";
+                    textAboutMenu.textContent  = language.zhCN.textAboutMenu;
+                    textTeamMenu.textContent = language.zhCN.textTeamMenu;
+                    textDonationMenu.textContent = language.zhCN.textDonationMenu;
+                    textSupportMenu.textContent = language.zhCN.textSupportMenu;
+                    textHalvingPrefix.textContent = language.zhCN.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.zhCN.textHalvingSuffix;
+                    textViewCountdown.textContent = language.zhCN.textViewCountdown;
+                    textHeadline.textContent = language.zhCN.textHeadline;
+                    textSubheadline.textContent = language.zhCN.textSubheadline; 
+                    textYearCreated.textContent = language.zhCN.textYearCreated; 
+                    textMarketPrice.textContent = language.zhCN.textMarketPrice;  
+                    textMarketCap.textContent  = language.zhCN.textMarketCap; 
+                    textCirculatingPrefixSuffix.textContent = language.zhCN.textCirculatingPrefixSuffix; 
+                    textLearnHeader.textContent = language.zhCN.textLearnHeader; 
+                    textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
+                    textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
+                    textZeroTitle.textContent = language.zhCN.textZeroTitle; 
+                    textMWEBTitle.textContent = language.zhCN.textMWEBTitle; 
+                    textCheapTitle.textContent = language.zhCN.textCheapTitle; 
+                    textFastTitle.textContent = language.zhCN.textFastTitle; 
+                    textZeroDetail.textContent = language.zhCN.textZeroDetail; 
+                    textMWEBDetail.textContent = language.zhCN.textMWEBDetail; 
+                    textCheapDetail.textContent = language.zhCN.textCheapDetail; 
+                    textFastDetail.textContent = language.zhCN.textFastDetail; 
+                    textPartnerHeadline.textContent = language.zhCN.textPartnerHeadline; 
+                    textBitrefillDetail.textContent = language.zhCN.textBitrefillDetail; 
+                    textMoonpayDetail.textContent = language.zhCN.textMoonpayDetail; 
+                    textSimplexDetail.textContent = language.zhCN.textSimplexDetail; 
+                    textUDDetail.textContent = language.zhCN.textUDDetail; 
+                    textLitecoinCreatorHeadline.textContent = language.zhCN.textLitecoinCreatorHeadline; 
+                    textLitecoinCreatorSubheadline.textContent = language.zhCN.textLitecoinCreatorSubheadline; 
+                    textTeamHeadline.textContent = language.zhCN.textTeamHeadline; 
+                    textTeamSubheadline.textContent = language.zhCN.textTeamSubheadline; 
+                    textVolunteerHeadline.textContent = language.zhCN.textVolunteerHeadline; 
+                    textDonationHeadline.textContent = language.zhCN.textDonationHeadline; 
+                    textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline;
+                    textDonationScan.textContent = language.zhCN.textDonationScan; 
+                    textDonationsSend.textContent = language.zhCN.textDonationsSend; 
+                    textFooterHeadline.textContent = language.zhCN.textFooterHeadline; 
+                    textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
+                    textSocialHeadline.textContent = language.zhCN.textSocialHeadline; 
+                    textRepositories.textContent = language.zhCN.textRepositories; 
+                    textFooterSubheadline = language.zhCN.textFooterSubheadline; 
+                    break;
+                case "tr":
                     document.querySelector(".selected").innerText = "Türkçe";
                     textAboutMenu.textContent  = language.tr.textAboutMenu;
                     textTeamMenu.textContent = language.tr.textTeamMenu;
@@ -1099,9 +1103,10 @@
                     textRepoHeadline.textContent = language.tr.textRepoHeadline; 
                     textSocialHeadline.textContent = language.tr.textSocialHeadline; 
                     textRepositories.textContent = language.tr.textRepositories; 
-                    textFooterSubheadline = language.tr.textFooterSubheadline;  
-                }
-            }
+                    textFooterSubheadline = language.tr.textFooterSubheadline;
+                    break; 
+            } 
+        }
 
         // get all dropdowns
         const dropdownItems = document.querySelectorAll('.dropdown');
