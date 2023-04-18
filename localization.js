@@ -137,7 +137,7 @@
                 textRepoHeadline: "Le code Litewallet est open source et nous utilisons Github pour maintenir la base de code.",
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Référentiels",
-                textFooterSubheadline: "Aller en haut",
+                textFooterSubheadline: "Aller en haut"
             },
             es: {
                 textAboutMenu: "Sobre",
@@ -412,51 +412,6 @@
                 textFooterSubheadline: ""
             },
             zhCN: {
-                textAboutMenu: "",
-                textTeamMenu: "",
-                textDonationMenu: "",
-                textSupportMenu: "",
-                textHalvingPrefix: "",
-                textHalvingSuffix: "", 
-                textViewCountdown: "",
-                textHeadline: "",
-                textSubheadline: "",
-                textYearCreated: "",
-                textMarketPrice: "",
-                textMarketCap: "",
-                textCirculatingPrefixSuffix: "",
-                textLearnHeader: "",
-                textLitecoinDescription: "",
-                textLitecoinDescriptionStyled: "",
-                textZeroTitle: "",
-                textMWEBTitle: "",
-                textCheapTitle: "",
-                textFastTitle: "",
-                textZeroDetail: "",
-                textMWEBDetail: "",
-                textCheapDetail: "",
-                textFastDetail: "",
-                textPartnerHeadline: "",
-                textBitrefillDetail: "",
-                textMoonpayDetail: "",
-                textSimplexDetail: "",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationScan: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: ""
-            },
-            zhTW: {
                 textAboutMenu: "",
                 textTeamMenu: "",
                 textDonationMenu: "",
@@ -966,52 +921,6 @@
                     textSocialHeadline.textContent = language.fr.textSocialHeadline; 
                     textRepositories.textContent = language.fr.textRepositories; 
                     textFooterSubheadline = language.fr.textFooterSubheadline;  
-                    break;
-                case "zhTW":
-                    document.querySelector(".selected").innerText = "中國人";
-                    textAboutMenu.textContent  = language.zhTW.textAboutMenu;
-                    textTeamMenu.textContent = language.zhTW.textTeamMenu;
-                    textDonationMenu.textContent = language.zhTW.textDonationMenu;
-                    textSupportMenu.textContent = language.zhTW.textSupportMenu;
-                    textHalvingPrefix.textContent = language.zhTW.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.zhTW.textHalvingSuffix;
-                    textViewCountdown.textContent = language.zhTW.textViewCountdown;
-                    textHeadline.textContent = language.zhTW.textHeadline;
-                    textSubheadline.textContent = language.zhTW.textSubheadline; 
-                    textYearCreated.textContent = language.zhTW.textYearCreated; 
-                    textMarketPrice.textContent = language.zhTW.textMarketPrice;  
-                    textMarketCap.textContent  = language.zhTW.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.zhTW.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.zhTW.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.zhTW.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.zhTW.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.zhTW.textZeroTitle; 
-                    textMWEBTitle.textContent = language.zhTW.textMWEBTitle; 
-                    textCheapTitle.textContent = language.zhTW.textCheapTitle; 
-                    textFastTitle.textContent = language.zhTW.textFastTitle; 
-                    textZeroDetail.textContent = language.zhTW.textZeroDetail; 
-                    textMWEBDetail.textContent = language.zhTW.textMWEBDetail; 
-                    textCheapDetail.textContent = language.zhTW.textCheapDetail; 
-                    textFastDetail.textContent = language.zhTW.textFastDetail; 
-                    textPartnerHeadline.textContent = language.zhTW.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.zhTW.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.zhTW.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.zhTW.textSimplexDetail; 
-                    textUDDetail.textContent = language.zhTW.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.zhTW.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.zhTW.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.zhTW.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.zhTW.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.zhTW.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.zhTW.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.zhTW.textDonationSubheadline;
-                    textDonationScan.textContent = language.zhTW.textDonationScan; 
-                    textDonationsSend.textContent = language.zhTW.textDonationsSend; 
-                    textFooterHeadline.textContent = language.zhTW.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.zhTW.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.zhTW.textSocialHeadline; 
-                    textRepositories.textContent = language.zhTW.textRepositories; 
-                    textFooterSubheadline = language.zhTW.textFooterSubheadline;  
                     break;
                 case "zhCN":
                     document.querySelector(".selected").innerText = "中国人";
