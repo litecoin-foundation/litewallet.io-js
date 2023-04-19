@@ -1,6 +1,9 @@
 // localization.js
 // This code loads of the text for every text element given a certain language
 
+//Setting the current language hash
+var currentLanguage = window.location.hash;
+
 // Define the language reload anchors
     var language = {
             en: {
@@ -501,8 +504,6 @@
                 textFooterSubheadline: "En üste git"
             }
         };
-
-        var currentLanguage = window.location.hash;
 
         if (window.location.hash) { 
             //Using switch statement reduces the time from O(n) to O(1)
