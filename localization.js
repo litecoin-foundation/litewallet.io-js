@@ -508,7 +508,7 @@ var currentLanguage = window.location.hash;
         if (window.location.hash) { 
             //Using switch statement reduces the time from O(n) to O(1)
             switch (currentLanguage) {
-                case "en":
+                case "#en":
                     document.querySelector(".selected").innerText = "English";
                     textAboutMenu.textContent  = language.en.textAboutMenu;
                     textTeamMenu.textContent = language.en.textTeamMenu;
@@ -554,7 +554,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.en.textRepositories; 
                     textFooterSubheadline = language.en.textFooterSubheadline;  
                     break;
-                case "id":
+                case "#id":
                     document.querySelector(".selected").innerText = "Bahasa Indonesia";
                     textAboutMenu.textContent  = language.id.textAboutMenu;
                     textTeamMenu.textContent = language.id.textTeamMenu;
@@ -600,7 +600,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.id.textRepositories; 
                     textFooterSubheadline = language.id.textFooterSubheadline;  
                     break;
-                case "es":
+                case "#es":
                     document.querySelector(".selected").innerText = "Español";
                     textAboutMenu.textContent  = language.es.textAboutMenu;
                     textTeamMenu.textContent = language.es.textTeamMenu;
@@ -646,7 +646,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.es.textRepositories; 
                     textFooterSubheadline = language.es.textFooterSubheadline;
                     break;
-                case "de":
+                case "#de":
                     document.querySelector(".selected").innerText = "Deutsch";
                     textAboutMenu.textContent  = language.de.textAboutMenu;
                     textTeamMenu.textContent = language.de.textTeamMenu;
@@ -692,7 +692,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.de.textRepositories; 
                     textFooterSubheadline = language.de.textFooterSubheadline;  
                     break;
-                case "pt":
+                case "#pt":
                     document.querySelector(".selected").innerText = "Portuguese";
                     textAboutMenu.textContent  = language.pt.textAboutMenu;
                     textTeamMenu.textContent = language.pt.textTeamMenu;
@@ -738,7 +738,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.pt.textRepositories; 
                     textFooterSubheadline = language.pt.textFooterSubheadline;  
                     break;
-                case "ko":
+                case "#ko":
                     document.querySelector(".selected").innerText = "한국인";
                     textAboutMenu.textContent  = language.ko.textAboutMenu;
                     textTeamMenu.textContent = language.ko.textTeamMenu;
@@ -784,7 +784,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.ko.textRepositories; 
                     textFooterSubheadline = language.ko.textFooterSubheadline;
                     break;
-                case "uk":
+                case "#uk":
                     document.querySelector(".selected").innerText = "українська";
                     textAboutMenu.textContent  = language.uk.textAboutMenu;
                     textTeamMenu.textContent = language.uk.textTeamMenu;
@@ -830,7 +830,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.uk.textRepositories; 
                     textFooterSubheadline = language.uk.textFooterSubheadline;
                     break;
-                case "ru":
+                case "#ru":
                     document.querySelector(".selected").innerText = "Русский";
                     textAboutMenu.textContent  = language.ru.textAboutMenu;
                     textTeamMenu.textContent = language.ru.textTeamMenu;
@@ -876,7 +876,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.ru.textRepositories; 
                     textFooterSubheadline = language.ru.textFooterSubheadline;
                     break;
-                case "fr":
+                case "#fr":
                     document.querySelector(".selected").innerText = "Français";
                     textAboutMenu.textContent  = language.fr.textAboutMenu;
                     textTeamMenu.textContent = language.fr.textTeamMenu;
@@ -922,7 +922,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.fr.textRepositories; 
                     textFooterSubheadline = language.fr.textFooterSubheadline;  
                     break;
-                case "zhCN":
+                case "#zhCN":
                     document.querySelector(".selected").innerText = "中国人";
                     textAboutMenu.textContent  = language.zhCN.textAboutMenu;
                     textTeamMenu.textContent = language.zhCN.textTeamMenu;
@@ -968,7 +968,7 @@ var currentLanguage = window.location.hash;
                     textRepositories.textContent = language.zhCN.textRepositories; 
                     textFooterSubheadline = language.zhCN.textFooterSubheadline;  
                     break;
-                case "tr":
+                case "#tr":
                     document.querySelector(".selected").innerText = "Türkçe";
                     textAboutMenu.textContent  = language.tr.textAboutMenu;
                     textTeamMenu.textContent = language.tr.textTeamMenu;
