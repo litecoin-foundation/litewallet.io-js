@@ -12,7 +12,6 @@
                 textHalvingSuffix: " days.", 
                 textViewCountdown: "View Countdown",
                 textHeadline: "The Official Litecoin mobile wallet",
-                textHalving: "Halving in 000 days.",
                 textSubheadline: "Litecoin has been operational since 2011 with no downtime! Litewallet is the official wallet backed by Litecoin Foundation that offers simple and safe ways to use Litecoin.",
                 textYearCreated: "YEAR CREATED",
                 textMarketPrice: "CURRENT MARKET PRICE",
@@ -26,7 +25,7 @@
                 textCheapTitle: "Cheap fees",
                 textFastTitle: "Fast transactions",
                 textZeroDetail: "Since 2011, Litecoin has led the cryptocurrency space as a secure, decentralized and innovative currency.",
-                textMWEBDetail: "MWEB keeps your wallet balance hidden. This allows you to send Litecoin without strangers seeing whats in your wallet.",
+                textMWEBDetail: "MWEB keeps your wallet balance concealed. This allows you to send Litecoin without strangers seeing whats in your wallet.",
                 textCheapDetail: "Litecoin was designed to make it incredibly cheap to send. If the network is busy, its still very cheap...pennies.",
                 textFastDetail: "Litecoin has a transaction processing speed of 54 TPS, which is significantly higher than Bitcoin's transaction processing speed of 5 TPS.",
                 textPartnerHeadline: "We have great partners that help Litewallet deliver more value to our users",
@@ -43,7 +42,7 @@
                 textDonationSubheadline: "Your donation to Litewallet app developers will help fuel the development of cutting-edge features and push the boundaries of what's possible. Give the gift of progress and support the team now!",
                 textDonationScan: "Scan to give!",
                 textDonationsSend: "Send LTC to this address:",
-                textFooterHeadline: "Litewallet, The official Litecoin wallet",
+                textFooterHeadline: "Litewallet, The official Litecoin mobile wallet",
                 textRepoHeadline: "Litewallet code is open source and we use Github to maintain the codebase.",
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Repositories:",
@@ -276,185 +275,185 @@
                 textRepositories: "리포지토리:",
                 textFooterSubheadline: "맨 위로 이동"
             },
-            uk: {
-                textAboutMenu: "",
-                textTeamMenu: "",
-                textDonationMenu: "",
-                textSupportMenu: "",
-                textHalvingPrefix: "",
-                textHalvingSuffix: "", 
-                textViewCountdown: "",
-                textHeadline: "",
-                textSubheadline: "",
-                textYearCreated: "",
-                textMarketPrice: "",
-                textMarketCap: "",
-                textCirculatingPrefixSuffix: "",
-                textLearnHeader: "",
-                textLitecoinDescription: "",
-                textLitecoinDescriptionStyled: "",
-                textZeroTitle: "",
-                textMWEBTitle: "",
-                textCheapTitle: "",
-                textFastTitle: "",
-                textZeroDetail: "",
-                textMWEBDetail: "",
-                textCheapDetail: "",
-                textFastDetail: "",
-                textPartnerHeadline: "",
-                textBitrefillDetail: "",
-                textMoonpayDetail: "",
-                textSimplexDetail: "",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationScan: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: ""
+            uk: { 
+                textAboutMenu: "Про",
+                textTeamMenu: "Команда",
+                textDonationMenu: "Пожертва",
+                textSupportMenu: "Підтримка",
+                textHalvingPrefix: "Вдвічі менше",
+                textHalvingSuffix: "днів", 
+                textViewCountdown: "Переглянути зворотний відлік",
+                textHeadline: "Офіційний мобільний гаманець Litecoin",
+                textSubheadline: "Litecoin працює з 2011 року без жодного простою! Litewallet - це офіційний гаманець, що підтримується Litecoin Foundation, який пропонує прості та безпечні способи використання Litecoin.",
+                textYearCreated: "PIK СТВОРЕННЯ",
+                textMarketPrice: "ПОТОЧНА РИНКОВА ЦІНА",
+                textMarketCap: "ПОТОЧНА РИНКОВА КАПІТАЛІЗАЦІЯ",
+                textCirculatingPrefixSuffix: "Litecoin має циркулюючий запас i максимальний запас",
+                textLearnHeader: "Дізнайтеся більше про Litecoin",
+                textLitecoinDescription: "Litecoin - одна з найбільш усталених i стабільних криптовалют з точки зору обсягів транзакцій i ліквідності, яка широко використовується як засіб обміну.",
+                textLitecoinDescriptionStyled: "Це справжня валюта, яка використовується всюди!",
+                textZeroTitle: "Нульовий час простою",
+                textMWEBTitle: "Впровадження MWEB",
+                textCheapTitle: "Дешеві збори",
+                textFastTitle: "Швидкі транзакції",
+                textZeroDetail: "З 2011 року Litecoin є лідером криптовалютного простору як безпечна, децентралізована та інноваційна валюта.",
+                textMWEBDetail: "MWEB зберігає баланс вашого гаманця в таємниці. Це дозволяє вам відправляти Litecoin без того, щоб сторонні бачили, що y вашому гаманці.",
+                textCheapDetail: "Litecoin був розроблений для того, щоб зробити відправлення неймовірно дешевими. Якщо мережа зайнята, це все одно дуже дешево... копійки.",
+                textFastDetail: "Швидкість обробки транзакцій Litecoin становить 54 TPS, що значно перевищує швидкість обробки транзакцій Bitcoin, яка становить 5 TPS.",
+                textPartnerHeadline: "y нас є чудові партнери, які допомагають Litewallet надавати більше переваг нашим користувачам",
+                textBitrefillDetail: "Провідний криптовалютний інтернет-магазин, який дозволяє користувачам - Live on Crypto.",
+                textMoonpayDetail: "MoonPay працює в більш ніж 160 країнах, їй довіряють 300+ провідних гаманців, веб-сайтів i додатків, які приймають платежі та протидіють шахрайству.",
+                textSimplexDetail: "Потужний. Бездоганно. Ефективно. Як лідер галузі, ми розширюємо можливості сотень партнерів, щоб мільйони людей могли купувати цифрові активи на мільярди доларів.",
+                textUDDetail: "Володійте своєю ідентичністю в цифровому світі. Це ваше ім'я. Володійте ним. Володійте своєю ідентичністю в цифровому світі. Почніть з домену Web3.",
+                textLitecoinCreatorHeadline: "Під час роботи в Google Чарлі зацікавився біткоїном, познайомившись з Майком Херном i отримавши свій перший біткоїн. Він запустив Litecoin у жовтні 2011 року. У 2016 році він заснував Litecoin Foundation, некомерційну організацію, місія якої полягає в тому, щоб розповісти світові про переваги Litecoin.",
+                textLitecoinCreatorSubheadline: "Тісно співпрацюючи з командою Litewallet, Чарлі та Керрі обговорюють шляхи збільшення кількості активних користувачів, надаючи при цьому функції, яких користувачі хочуть найбільше. Команда Litewallet працює по всьому світу зі скромним бюджетом і великою кількістю добре фінансованих конкурентів, що пропонують багато видів криптовалют.",
+                textTeamHeadline: "Це командна робота",
+                textTeamSubheadline: "Litewallet має одного штатного керівника команди та групу волонтерів по всьому світу. Хочете дізнатися більше про простір Litecoin та покращити свої знання про криптовалюту?",
+                textVolunteerHeadline: "Подати заявку, щоб стати волонтером",
+                textDonationHeadline: "Зробіть свій внесок y майбутнє Litecoin",
+                textDonationSubheadline: "Ваша пожертва розробникам Litewallet допоможе підтримати розробку передових функцій i розширити межі можливого. Зробіть подарунок прогресу та підтримайте команду прямо зараз!",
+                textDonationScan: "Скан віддати!",
+                textDonationsSend: "Надішліть LTC на цю адресу:",
+                textFooterHeadline: "Litewallet, офіційний гаманець Litecoin",
+                textRepoHeadline: "Код Litewallet є відкритим кодом, i ми використовуємо Github для підтримки кодової бази.",
+                textSocialHeadline: "Соц. Litewallet",
+                textRepositories: "Репозиторії:",
+                textFooterSubheadline: "Перейти на вершину"
             },
             ru: {
-                textAboutMenu: "",
-                textTeamMenu: "",
-                textDonationMenu: "",
-                textSupportMenu: "",
-                textHalvingPrefix: "",
-                textHalvingSuffix: "", 
-                textViewCountdown: "",
-                textHeadline: "",
-                textSubheadline: "",
-                textYearCreated: "",
-                textMarketPrice: "",
-                textMarketCap: "",
-                textCirculatingPrefixSuffix: "",
-                textLearnHeader: "",
-                textLitecoinDescription: "",
-                textLitecoinDescriptionStyled: "",
-                textZeroTitle: "",
-                textMWEBTitle: "",
-                textCheapTitle: "",
-                textFastTitle: "",
-                textZeroDetail: "",
-                textMWEBDetail: "",
-                textCheapDetail: "",
-                textFastDetail: "",
-                textPartnerHeadline: "",
-                textBitrefillDetail: "",
-                textMoonpayDetail: "",
-                textSimplexDetail: "",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationScan: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: ""
+                textAboutMenu: "О",
+                textTeamMenu: "Команда",
+                textDonationMenu: "Пожертвование",
+                textSupportMenu: "Поддерживать",
+                textHalvingPrefix: "Уменьшение вдвое",
+                textHalvingSuffix: "дней.", 
+                textViewCountdown: "Просмотр обратного отсчета",
+                textHeadline: "Официальный мобильный кошелек Litecoin",
+                textSubheadline: "Litecoin работает с 2011 года без простоев! Litewallet — это официальный кошелек, поддерживаемый Litecoin Foundation, который предлагает простые и безопасные способы использования Litecoin.",
+                textYearCreated: "ГОД СОЗДАНИЯ",
+                textMarketPrice: "ТЕКУЩАЯ РЫНОЧНАЯ ЦЕНА",
+                textMarketCap: "ТЕКУЩАЯ РЫНОЧНАЯ КАПИТАЛИКА",
+                textCirculatingPrefixSuffix: "Litecoin имеет оборотный запас и макс. поставка",
+                textLearnHeader: "Узнайте больше о лайткоине",
+                textLitecoinDescription: "Litecoin является одной из самых устоявшихся и стабильных криптовалют с точки зрения объемов транзакций и ликвидности и обычно используется в качестве средства обмена.",
+                textLitecoinDescriptionStyled: "Это реальная валюта, используемая везде!",
+                textZeroTitle: "Нулевое время простоя",
+                textMWEBTitle: "Реализация MWEB",
+                textCheapTitle: "Дешевые сборы",
+                textFastTitle: "Быстрые транзакции",
+                textZeroDetail: "С 2011 года Litecoin лидирует в криптовалютном пространстве как безопасная, децентрализованная и инновационная валюта.",
+                textMWEBDetail: "MWEB скрывает баланс вашего кошелька. Это позволяет вам отправлять Litecoin так, чтобы посторонние не видели, что в вашем кошельке.",
+                textCheapDetail: "Litecoin был разработан, чтобы сделать его невероятно дешевым для отправки. Если сеть занята, это все еще очень дешево... копейки.",
+                textFastDetail: "Litecoin имеет скорость обработки транзакций 54 TPS, что значительно выше скорости обработки транзакций Биткойна, равной 5 TPS.",
+                textPartnerHeadline: "У нас есть отличные партнеры, которые помогают Litewallet приносить больше пользы нашим пользователям.",
+                textBitrefillDetail: "Ведущий магазин криптовалютной электронной коммерции, который позволяет пользователям «жить на крипто».",
+                textMoonpayDetail: "MoonPay работает более чем в 160 странах, и ему доверяют более 300 ведущих кошельков, веб-сайтов и приложений для приема платежей и борьбы с мошенничеством.",
+                textSimplexDetail: "Мощный. Бесшовные. Эффектный. Являясь лидером отрасли, мы помогаем сотням партнеров, чтобы миллионы людей могли покупать цифровые активы на миллиарды долларов.",
+                textUDDetail: "Создавайте свою личность в цифровом мире. Это твое имя. Владей этим. Создавайте свою личность в цифровом мире. Начните с домена Web3.",
+                textLitecoinCreatorHeadline: "Работая в Google, Чарли заинтересовался биткойнами, встретился с Майком Хирном и получил свой первый биткойн. Он запустил Litecoin в октябре 2011 года. В 2016 году он основал Litecoin Foundation, некоммерческую организацию, миссия которой — рассказать миру о преимуществах Litecoin.",
+                textLitecoinCreatorSubheadline: "Работая в тесном сотрудничестве с командой Litewallet, Чарли и Керри обсуждают способы увеличения количества активных пользователей, предоставляя при этом функции, которые пользователи хотят больше всего. Команда Litewallet глобальна со скромным бюджетом и большим количеством хорошо финансируемых конкурентов, предлагающих множество типов криптовалюты.",
+                textTeamHeadline: "Это командная работа",
+                textTeamSubheadline: "В Litewallet есть один руководитель команды, работающий полный рабочий день, и группа добровольцев по всему миру. Хотите узнать больше о пространстве Litecoin, улучшая свои знания о криптовалюте?",
+                textVolunteerHeadline: "Подать заявку, чтобы стать волонтером",
+                textDonationHeadline: "Усильте будущее Litecoin своим пожертвованием",
+                textDonationSubheadline: "Ваше пожертвование разработчикам приложений Litewallet поможет ускорить разработку передовых функций и раздвинуть границы возможного. Подарите прогресс и поддержите команду прямо сейчас!",
+                textDonationScan: "Отсканируйте, чтобы дать!",
+                textDonationsSend: "Отправьте LTC на этот адрес:",
+                textFooterHeadline: "Litewallet, официальный мобильный кошелек Litecoin",
+                textRepoHeadline: "Код Litewallet имеет открытый исходный код, и мы используем Github для поддержки кодовой базы.",
+                textSocialHeadline: "Litewallet социальный",
+                textRepositories: "Репозитории:",
+                textFooterSubheadline: "Перейти к началу"
             },
             pt: {
-                textAboutMenu: "",
-                textTeamMenu: "",
-                textDonationMenu: "",
-                textSupportMenu: "",
-                textHalvingPrefix: "",
-                textHalvingSuffix: "", 
-                textViewCountdown: "",
-                textHeadline: "",
-                textSubheadline: "",
-                textYearCreated: "",
-                textMarketPrice: "",
-                textMarketCap: "",
-                textCirculatingPrefixSuffix: "",
-                textLearnHeader: "",
-                textLitecoinDescription: "",
-                textLitecoinDescriptionStyled: "",
-                textZeroTitle: "",
-                textMWEBTitle: "",
-                textCheapTitle: "",
-                textFastTitle: "",
-                textZeroDetail: "",
-                textMWEBDetail: "",
-                textCheapDetail: "",
-                textFastDetail: "",
-                textPartnerHeadline: "",
-                textBitrefillDetail: "",
-                textMoonpayDetail: "",
-                textSimplexDetail: "",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationScan: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: ""
+                textAboutMenu: "Sobre",
+                textTeamMenu: "Equipe",
+                textDonationMenu: "Doação",
+                textSupportMenu: "Apoiar",
+                textHalvingPrefix: "Reduzir pela metade",
+                textHalvingSuffix: "dias", 
+                textViewCountdown: "Ver contagem regressiva",
+                textHeadline: "A carteira móvel Litecoin oficial",
+                textSubheadline: "O Litecoin está em operação desde 2011 sem tempo de inatividade! Litewallet é a carteira oficial apoiada pela Litecoin Foundation que oferece maneiras simples e seguras de usar o Litecoin.",
+                textYearCreated: "ANO DE CRIAÇÃO",
+                textMarketPrice: "PREÇO ATUAL DE MERCADO",
+                textMarketCap: "VALOR DE MERCADO ATUAL",
+                textCirculatingPrefixSuffix: "Litecoin tem um suprimento circulante de e um máx. fornecimento de",
+                textLearnHeader: "Saiba mais sobre Litecoin",
+                textLitecoinDescription: "O Litecoin é uma das criptomoedas mais estabelecidas e estáveis em termos de volume de transações e liquidez, e é comumente usado como meio de troca.",
+                textLitecoinDescriptionStyled: "É uma moeda real usada em todos os lugares!",
+                textZeroTitle: "Tempo de inatividade zero",
+                textMWEBTitle: "Implementação MWEB",
+                textCheapTitle: "Taxas baratas",
+                textFastTitle: "Transações rápidas",
+                textZeroDetail: "Desde 2011, o Litecoin lidera o espaço das criptomoedas como uma moeda segura, descentralizada e inovadora.",
+                textMWEBDetail: "O MWEB mantém o saldo da sua carteira oculto. Isso permite que você envie Litecoin sem que estranhos vejam o que está em sua carteira.",
+                textCheapDetail: "O Litecoin foi projetado para torná-lo incrivelmente barato para enviar. Se a rede estiver ocupada, ainda é muito barato... centavos.",
+                textFastDetail: "O Litecoin tem uma velocidade de processamento de transações de 54 TPS, que é significativamente maior do que a velocidade de processamento de transações do Bitcoin de 5 TPS.",
+                textPartnerHeadline: "Temos grandes parceiros que ajudam a Litewallet a entregar mais valor aos nossos usuários",
+                textBitrefillDetail: "Loja líder de e-commerce cripto que permite aos usuários - Live on Crypto.",
+                textMoonpayDetail: "A MoonPay está ativa em mais de 160 países e tem a confiança de mais de 300 carteiras, sites e aplicativos líderes para aceitar pagamentos e derrotar fraudes.",
+                textSimplexDetail: "Poderoso. Desatado. Impactante. Como líder do setor, capacitamos centenas de parceiros para permitir que milhões de pessoas comprem bilhões de dólares em ativos digitais.",
+                textUDDetail: "Tenha sua identidade no mundo digital. É o seu nome. Possua-o. Tenha sua identidade no mundo digital. Comece com um domínio Web3.",
+                textLitecoinCreatorHeadline: "Enquanto estava no Google, Charlie se interessou pelo Bitcoin conhecendo Mike Hearn e obtendo seu primeiro Bitcoin. Ele lançou o Litecoin em outubro de 2011. Ele fundou a Litecoin Foundation em 2016, uma organização sem fins lucrativos cuja missão é ensinar ao mundo os benefícios do Litecoin.",
+                textLitecoinCreatorSubheadline: "Trabalhando de perto com a equipe Litewallet, Charlie e Kerry discutem maneiras de aumentar os usuários ativos enquanto fornecem os recursos que os usuários mais desejam. A equipe Litewallet é global com um orçamento modesto e um grande número de concorrentes bem financiados que oferecem muitos tipos de criptografia.",
+                textTeamHeadline: "É um esforço de equipe",
+                textTeamSubheadline: "Litewallet tem um líder de equipe em tempo integral e um grupo de voluntários globais. Interessado em aprender mais sobre o espaço Litecoin enquanto melhora seu conhecimento sobre criptomoeda?",
+                textVolunteerHeadline: "Inscreva-se para se tornar um voluntário",
+                textDonationHeadline: "Capacite o futuro do Litecoin com sua doação",
+                textDonationSubheadline: "Sua doação para os desenvolvedores de aplicativos Litewallet ajudará a alimentar o desenvolvimento de recursos de ponta e ultrapassar os limites do que é possível. Dê o presente do progresso e apoie a equipe agora!",
+				textDonationScan: "Digitalizar para dar!",
+				textDonationsSend: "Envie LTC para este endereço:",
+				textFooterHeadline: "Litewallet, a carteira móvel Litecoin oficial", 
+                textRepoHeadline: "O código Litewallet é de código aberto e usamos o Github para manter a base de código.",
+                textSocialHeadline: "Litewallet social",
+                textRepositories: "Repositórios:",
+                textFooterSubheadline: "ir para o topo"
             },
             zhCN: {
-                textAboutMenu: "",
-                textTeamMenu: "",
-                textDonationMenu: "",
-                textSupportMenu: "",
-                textHalvingPrefix: "",
-                textHalvingSuffix: "", 
-                textViewCountdown: "",
-                textHeadline: "",
-                textSubheadline: "",
-                textYearCreated: "",
-                textMarketPrice: "",
-                textMarketCap: "",
-                textCirculatingPrefixSuffix: "",
-                textLearnHeader: "",
-                textLitecoinDescription: "",
-                textLitecoinDescriptionStyled: "",
-                textZeroTitle: "",
-                textMWEBTitle: "",
-                textCheapTitle: "",
-                textFastTitle: "",
-                textZeroDetail: "",
-                textMWEBDetail: "",
-                textCheapDetail: "",
-                textFastDetail: "",
-                textPartnerHeadline: "",
-                textBitrefillDetail: "",
-                textMoonpayDetail: "",
-                textSimplexDetail: "",
-                textUDDetail: "",
-                textLitecoinCreatorHeadline: "",
-                textLitecoinCreatorSubheadline: "",
-                textTeamHeadline: "",
-                textTeamSubheadline: "",
-                textVolunteerHeadline: "",
-                textDonationHeadline: "",
-                textDonationSubheadline: "",
-                textDonationScan: "",
-                textDonationsSend: "",
-                textFooterHeadline: "",
-                textRepoHeadline: "",
-                textSocialHeadline: "",
-                textRepositories: "",
-                textFooterSubheadline: ""
+                textAboutMenu: "关于",
+                textTeamMenu: "团队",
+                textDonationMenu: "捐款",
+                textSupportMenu: "支持",
+                textHalvingPrefix: "减半",
+                textHalvingSuffix: "天。", 
+                textViewCountdown: "查看倒计时",
+                textHeadline: "官方莱特币手机钱包",
+                textSubheadline: "莱特币自 2011 年开始运营，没有停机！ Litewallet 是由 Litecoin Foundation 支持的官方钱包，它提供简单安全的方式来使用 Litecoin。",
+                textYearCreated: "创建年份",
+                textMarketPrice: "当前市场价格",
+                textMarketCap: "当前市值",
+                textCirculatingPrefixSuffix: "莱特币的循环供应量为 和最大值。 供应",
+                textLearnHeader: "了解有关莱特币的更多信息",
+                textLitecoinDescription: "就交易量和流动性而言，莱特币是最成熟和最稳定的加密货币之一，通常用作交换手段。",
+                textLitecoinDescriptionStyled: "这是一种随处使用的真实货币！",
+                textZeroTitle: "零停机时间",
+                textMWEBTitle: "MWEB实施",
+                textCheapTitle: "便宜的费用",
+                textFastTitle: "快速交易",
+                textZeroDetail: "自 2011 年以来，莱特币作为一种安全、去中心化和创新的货币一直引领着加密货币领域。",
+                textMWEBDetail: "MWEB 会隐藏您的钱包余额。 这使您可以在陌生人看不到您钱包里的东西的情况下发送莱特币。",
+                textCheapDetail: "莱特币的设计目的是让发送变得难以置信的便宜。 如果网络繁忙，它仍然很便宜……几美分。",
+                textFastDetail: "莱特币的交易处理速度为54 TPS，明显高于比特币5 TPS的交易处理速度。",
+                textPartnerHeadline: "我们有优秀的合作伙伴帮助 Litewallet 为我们的用户提供更多价值",
+                textBitrefillDetail: "领先的加密电子商务商店，允许用户“以加密为生”。",
+                textMoonpayDetail: "MoonPay 在 160 多个国家/地区活跃，并受到 300 多个领先钱包、网站和应用程序的信任，可以接受付款并打击欺诈。",
+                textSimplexDetail: "强大的。 无缝的。 有影响力。 作为行业领导者，我们赋能数百家合作伙伴，让数百万人购买数十亿美元的数字资产。",
+                textUDDetail: "在数字世界中拥有您的身份。 这是你的名字。 拥有它。 在数字世界中拥有您的身份。 开始使用 Web3 域。",
+                textLitecoinCreatorHeadline: "在谷歌期间，查理对比特币产生了兴趣，遇见了迈克赫恩并获得了他的第一个比特币。 他于 2011 年 10 月推出了莱特币。他于 2016 年创立了莱特币基金会，这是一个非营利组织，其使命是向全世界传授莱特币的好处。",
+                textLitecoinCreatorSubheadline: "Charlie 和 Kerry 与 Litewallet 团队密切合作，讨论如何增加活跃用户，同时提供用户最想要的功能。 Litewallet 团队是全球性的，预算适中，并且有大量资金充足的竞争对手提供多种类型的加密货币。",
+                textTeamHeadline: "这是团队的努力",
+                textTeamSubheadline: "Litewallet 有一名全职团队领导和一组全球志愿者。 有兴趣在提高您对加密货币的了解的同时进一步了解莱特币领域吗？",
+                textVolunteerHeadline: "申请成为志愿者",
+                textDonationHeadline: "用您的捐赠赋能莱特币的未来",
+                textDonationSubheadline: "您对 Litewallet 应用程序开发人员的捐赠将有助于推动尖端功能的开发并突破可能的界限。 立即给予进步的礼物并支持团队！",
+                textDonationScan: "扫一扫送！",
+                textDonationsSend: "将 LTC 发送到此地址：",
+                textFooterHeadline: "Litewallet，官方莱特币手机钱包",
+                textRepoHeadline: "Litewallet 代码是开源的，我们使用 Github 来维护代码库。",
+                textSocialHeadline: "莱特钱包社交",
+                textRepositories: "存储库：",
+                textFooterSubheadline: "到顶部"
             },
             tr: {
                 textAboutMenu: "Hakkında",
@@ -556,49 +555,49 @@
                     break;
                 case "id":
                     document.querySelector(".selected").innerText = "Bahasa Indonesia";
-                    textAboutMenu.textContent  = language.en.textAboutMenu;
-                    textTeamMenu.textContent = language.en.textTeamMenu;
-                    textDonationMenu.textContent = language.en.textDonationMenu;
-                    textSupportMenu.textContent = language.en.textSupportMenu;
-                    textHalvingPrefix.textContent = language.en.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.en.textHalvingSuffix;
-                    textViewCountdown.textContent = language.en.textViewCountdown;
-                    textHeadline.textContent = language.en.textHeadline;
-                    textSubheadline.textContent = language.en.textSubheadline; 
-                    textYearCreated.textContent = language.en.textYearCreated; 
-                    textMarketPrice.textContent = language.en.textMarketPrice;  
-                    textMarketCap.textContent  = language.en.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.en.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.en.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.en.textZeroTitle; 
-                    textMWEBTitle.textContent = language.en.textMWEBTitle; 
-                    textCheapTitle.textContent = language.en.textCheapTitle; 
-                    textFastTitle.textContent = language.en.textFastTitle; 
-                    textZeroDetail.textContent = language.en.textZeroDetail; 
-                    textMWEBDetail.textContent = language.en.textMWEBDetail; 
-                    textCheapDetail.textContent = language.en.textCheapDetail; 
-                    textFastDetail.textContent = language.en.textFastDetail; 
-                    textPartnerHeadline.textContent = language.en.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.en.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.en.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.en.textSimplexDetail; 
-                    textUDDetail.textContent = language.en.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.en.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.en.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.en.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.en.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.en.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.en.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.en.textDonationSubheadline; 
-                    textDonationScan.textContent = language.en.textDonationScan;
-                    textDonationsSend.textContent = language.en.textDonationsSend; 
-                    textFooterHeadline.textContent = language.en.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.en.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.en.textSocialHeadline; 
-                    textRepositories.textContent = language.en.textRepositories; 
-                    textFooterSubheadline = language.en.textFooterSubheadline;  
+                    textAboutMenu.textContent  = language.id.textAboutMenu;
+                    textTeamMenu.textContent = language.id.textTeamMenu;
+                    textDonationMenu.textContent = language.id.textDonationMenu;
+                    textSupportMenu.textContent = language.id.textSupportMenu;
+                    textHalvingPrefix.textContent = language.id.textHalvingPrefix;
+                    textHalvingSuffix.textContent = language.id.textHalvingSuffix;
+                    textViewCountdown.textContent = language.id.textViewCountdown;
+                    textHeadline.textContent = language.id.textHeadline;
+                    textSubheadline.textContent = language.id.textSubheadline; 
+                    textYearCreated.textContent = language.id.textYearCreated; 
+                    textMarketPrice.textContent = language.id.textMarketPrice;  
+                    textMarketCap.textContent  = language.id.textMarketCap; 
+                    textCirculatingPrefixSuffix.textContent = language.id.textCirculatingPrefixSuffix; 
+                    textLearnHeader.textContent = language.id.textLearnHeader; 
+                    textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
+                    textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
+                    textZeroTitle.textContent = language.id.textZeroTitle; 
+                    textMWEBTitle.textContent = language.id.textMWEBTitle; 
+                    textCheapTitle.textContent = language.id.textCheapTitle; 
+                    textFastTitle.textContent = language.id.textFastTitle; 
+                    textZeroDetail.textContent = language.id.textZeroDetail; 
+                    textMWEBDetail.textContent = language.id.textMWEBDetail; 
+                    textCheapDetail.textContent = language.id.textCheapDetail; 
+                    textFastDetail.textContent = language.id.textFastDetail; 
+                    textPartnerHeadline.textContent = language.id.textPartnerHeadline; 
+                    textBitrefillDetail.textContent = language.id.textBitrefillDetail; 
+                    textMoonpayDetail.textContent = language.id.textMoonpayDetail; 
+                    textSimplexDetail.textContent = language.id.textSimplexDetail; 
+                    textUDDetail.textContent = language.id.textUDDetail; 
+                    textLitecoinCreatorHeadline.textContent = language.id.textLitecoinCreatorHeadline; 
+                    textLitecoinCreatorSubheadline.textContent = language.id.textLitecoinCreatorSubheadline; 
+                    textTeamHeadline.textContent = language.id.textTeamHeadline; 
+                    textTeamSubheadline.textContent = language.id.textTeamSubheadline; 
+                    textVolunteerHeadline.textContent = language.id.textVolunteerHeadline; 
+                    textDonationHeadline.textContent = language.id.textDonationHeadline; 
+                    textDonationSubheadline.textContent = language.id.textDonationSubheadline; 
+                    textDonationScan.textContent = language.id.textDonationScan;
+                    textDonationsSend.textContent = language.id.textDonationsSend; 
+                    textFooterHeadline.textContent = language.id.textFooterHeadline; 
+                    textRepoHeadline.textContent = language.id.textRepoHeadline; 
+                    textSocialHeadline.textContent = language.id.textSocialHeadline; 
+                    textRepositories.textContent = language.id.textRepositories; 
+                    textFooterSubheadline = language.id.textFooterSubheadline;  
                     break;
                 case "es":
                     document.querySelector(".selected").innerText = "Español";
@@ -690,7 +689,7 @@
                     textRepoHeadline.textContent = language.de.textRepoHeadline; 
                     textSocialHeadline.textContent = language.de.textSocialHeadline; 
                     textRepositories.textContent = language.de.textRepositories; 
-                    textFooterSubheadline = language.de.textFooterSubheadline;
+                    textFooterSubheadline = language.de.textFooterSubheadline;  
                     break;
                 case "pt":
                     document.querySelector(".selected").innerText = "Portuguese";
@@ -966,7 +965,7 @@
                     textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
                     textSocialHeadline.textContent = language.zhCN.textSocialHeadline; 
                     textRepositories.textContent = language.zhCN.textRepositories; 
-                    textFooterSubheadline = language.zhCN.textFooterSubheadline; 
+                    textFooterSubheadline = language.zhCN.textFooterSubheadline;  
                     break;
                 case "tr":
                     document.querySelector(".selected").innerText = "Türkçe";
