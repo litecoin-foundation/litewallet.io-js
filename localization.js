@@ -19,7 +19,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "YEAR CREATED",
                 textMarketPrice: "CURRENT MARKET PRICE",
                 textMarketCap: "CURRENT MARKET CAP",
-                textCirculatingPrefixSuffix: "Litecoin has a circulating supply of and a max. supply of ", 
+                textMaxSupply: "Litecoin memiliki pasokan maksimal 84.000.000 LTC", 
+                textCirculatingSupply: "And a circulating supply of", 
                 textLearnHeader: "Learn more about Litecoin",
                 textLitecoinDescription: "Litecoin is one of the most established and stable cryptocurrencies in terms of transaction volumes and liquidity, and is commonly used as a means of exchange.",
                 textLitecoinDescriptionStyled: "It's a real currency used everywhere!",
@@ -64,6 +65,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "TAHUN DIBUAT",
                 textMarketPrice: "HARGA PASAR SAAT INI",
                 textMarketCap: "KAPITALISASI PASAR SAAT INI",
+                textMaxSupply: "Litecoin has a max supply of 84,000,000 LTC", 
+                textCirculatingSupply: "Dan pasokan beredar", 
                 textCirculatingPrefixSuffix: "Litecoin memiliki persediaan yang beredar dan persediaan maksimum ", 
                 textLearnHeader:  "Pelajari lebih lanjut tentang Litecoin",
                 textLitecoinDescription:  "Litecoin adalah salah satu mata uang kripto yang paling mapan dan stabil dalam hal volume transaksi dan likuiditas, dan umumnya digunakan sebagai alat tukar.",
@@ -109,6 +112,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "ANNÉE DE CRÉATION",
                 textMarketPrice: "PRIX ACTUEL DU MARCHÉ",
                 textMarketCap: "CAPACITÉ DE MARCHÉ ACTUELLE",
+                textMaxSupply: "Litecoin a une offre maximale de 84 000 000 LTC", 
+                textCirculatingSupply: "Et un approvisionnement en circulation de", 
                 textCirculatingPrefixSuffix: "Litecoin a une offre en circulation de et un max. fourniture de",
                 textLearnHeader: "En savoir plus sur le Litecoin",
                 textLitecoinDescription: "Litecoin est l'une des crypto-monnaies les plus établies et les plus stables en termes de volumes de transactions et de liquidité, et est couramment utilisée comme moyen d'échange.",
@@ -149,12 +154,14 @@ var currentLanguage = window.location.hash;
                 textHalvingPrefix: "Halving en",
                 textHalvingSuffix: "días",
                 textViewCountdown: "Ver cuenta regresiva",
-                textHeadline: "La cartera móvil Oficial de LItecoin",
+                textHeadline: "La cartera móvil Oficial de Litecoin",
                 textHalving: "Halving en 000 días.",
                 textSubheadline: "¡Litecoin ha estado operativo desde 2011 sin tiempo de inactividad! Litewallet es la cartera oficial respaldada por la Fundación Litecoin que ofrece formas simples y seguras para usar Litecoin.",
                 textYearCreated: "AÑO DE CREACIÓN",
                 textMarketPrice: "PRECIO ACTUAL DE MERCADO",
                 textMarketCap: "CAPITAL DE MERCADO ACTUAL",
+                textMaxSupply: "Litecoin tiene un suministro máximo de 84,000,000 LTC", 
+                textCirculatingSupply: "Y un suministro circulante de",  
                 textCirculatingPrefixSuffix: "Litecoin tiene un suministro circulante de y un máx. suministro de ",
                 textLearnHeader: "Aprende más sobre Litecoin",
                 textLitecoinDescription: "Litecoin es una de las criptomonedas más establecidas y estables en términos de volumen de transacciones y liquidez, y es frecuentemente usada como medio de intercambio.",
@@ -200,6 +207,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "JAHR DER ERSTELLUNG",
                 textMarketPrice: "AKTUELLER MARKTPREIS",
                 textMarketCap: "AKTUELLE MARKTKAPITALISIERUNG",
+                textMaxSupply: "Litecoin hat ein maximales Angebot von 84.000.000 LTC", 
+                textCirculatingSupply: "Und eine zirkulierende Versorgung mit", 
                 textCirculatingPrefixSuffix: "Litecoin hat einen zirkulierenden Vorrat von und einen maximalen Vorrat von ",
                 textLearnHeader: "Erfahren Sie mehr über Litecoin",
                 textLitecoinDescription: "Litecoin ist eine der etabliertesten und stabilsten Kryptowährungen, was das Transaktionsvolumen und die Liquidität angeht, und wird häufig als Tauschmittel verwendet.",
@@ -246,6 +255,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "만든 연도",
                 textMarketPrice: "현재 시장 가격",
                 textMarketCap: "현재 시가 총액",
+                textMaxSupply: "Litecoin의 최대 공급량은 84,000,000 LTC입니다.", 
+                textCirculatingSupply: "그리고 순환 공급",  
                 textCirculatingPrefixSuffix: "Litecoin의 순환 공급량은 최대입니다. 공급",
                 textLearnHeader: "라이트코인에 대해 자세히 알아보기",
                 textLitecoinDescription: "Litecoin은 거래량과 유동성 측면에서 가장 확립되고 안정적인 암호화폐 중 하나이며 일반적으로 교환 수단으로 사용됩니다.",
@@ -291,6 +302,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "PIK СТВОРЕННЯ",
                 textMarketPrice: "ПОТОЧНА РИНКОВА ЦІНА",
                 textMarketCap: "ПОТОЧНА РИНКОВА КАПІТАЛІЗАЦІЯ",
+                textMaxSupply: "Лайткоін має максимальний запас 84 000 000 LTC", 
+                textCirculatingSupply: "І оборотний запас",  
                 textCirculatingPrefixSuffix: "Litecoin має циркулюючий запас i максимальний запас",
                 textLearnHeader: "Дізнайтеся більше про Litecoin",
                 textLitecoinDescription: "Litecoin - одна з найбільш усталених i стабільних криптовалют з точки зору обсягів транзакцій i ліквідності, яка широко використовується як засіб обміну.",
@@ -336,6 +349,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "ГОД СОЗДАНИЯ",
                 textMarketPrice: "ТЕКУЩАЯ РЫНОЧНАЯ ЦЕНА",
                 textMarketCap: "ТЕКУЩАЯ РЫНОЧНАЯ КАПИТАЛИКА",
+                textMaxSupply: "Максимальный запас Litecoin составляет 84 000 000 LTC.", 
+                textCirculatingSupply: "И оборотный запас",  
                 textCirculatingPrefixSuffix: "Litecoin имеет оборотный запас и макс. поставка",
                 textLearnHeader: "Узнайте больше о лайткоине",
                 textLitecoinDescription: "Litecoin является одной из самых устоявшихся и стабильных криптовалют с точки зрения объемов транзакций и ликвидности и обычно используется в качестве средства обмена.",
@@ -381,6 +396,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "ANO DE CRIAÇÃO",
                 textMarketPrice: "PREÇO ATUAL DE MERCADO",
                 textMarketCap: "VALOR DE MERCADO ATUAL",
+                textMaxSupply: "Litecoin tem um suprimento máximo de 84.000.000 LTC", 
+                textCirculatingSupply: "E um suprimento circulante de", 
                 textCirculatingPrefixSuffix: "Litecoin tem um suprimento circulante de e um máx. fornecimento de",
                 textLearnHeader: "Saiba mais sobre Litecoin",
                 textLitecoinDescription: "O Litecoin é uma das criptomoedas mais estabelecidas e estáveis em termos de volume de transações e liquidez, e é comumente usado como meio de troca.",
@@ -426,6 +443,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "创建年份",
                 textMarketPrice: "当前市场价格",
                 textMarketCap: "当前市值",
+                textMaxSupply: "莱特币的最大供应量为 84,000,000 LTC", 
+                textCirculatingSupply: "和循环供应",  
                 textCirculatingPrefixSuffix: "莱特币的循环供应量为 和最大值。 供应",
                 textLearnHeader: "了解有关莱特币的更多信息",
                 textLitecoinDescription: "就交易量和流动性而言，莱特币是最成熟和最稳定的加密货币之一，通常用作交换手段。",
@@ -471,6 +490,8 @@ var currentLanguage = window.location.hash;
                 textYearCreated: "YARATILDIĞI YIL",
                 textMarketPrice: "MEVCUT PIYASA FIYATI",
                 textMarketCap: "MEVCUT PIYASA DEĞERI",
+                textMaxSupply: "Litecoin'in maksimum arzı 84.000.000 LTC'dir", 
+                textCirculatingSupply: "Ve dolaşımdaki bir arz", 
                 textCirculatingPrefixSuffix: "Litecoin'in dolaşımdaki arzı ve maksimum arzı ",
                 textLearnHeader: "Litecoin hakkında daha fazla bilgi edinin",
                 textLitecoinDescription: "Litecoin, işlem hacimleri ve likidite açısından en köklü ve istikrarlı kripto para birimlerinden biridir ve yaygın olarak bir değişim aracı olarak kullanılmaktadır.",
@@ -522,7 +543,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.en.textYearCreated; 
                     textMarketPrice.textContent = language.en.textMarketPrice;  
                     textMarketCap.textContent  = language.en.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.en.textCirculatingPrefixSuffix; 
+                    textMaxSupply.textContent = language.en.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.en.textCirculatingSupply; 
                     textLearnHeader.textContent = language.en.textLearnHeader; 
                     textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
@@ -567,8 +589,9 @@ var currentLanguage = window.location.hash;
                     textSubheadline.textContent = language.id.textSubheadline; 
                     textYearCreated.textContent = language.id.textYearCreated; 
                     textMarketPrice.textContent = language.id.textMarketPrice;  
-                    textMarketCap.textContent  = language.id.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.id.textCirculatingPrefixSuffix; 
+                    textMarketCap.textContent  = language.id.textMarketCap;  
+                    textMaxSupply.textContent = language.id.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.id.textCirculatingSupply; 
                     textLearnHeader.textContent = language.id.textLearnHeader; 
                     textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
@@ -614,8 +637,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.es.textYearCreated; 
                     textMarketPrice.textContent = language.es.textMarketPrice;  
                     textMarketCap.textContent  = language.es.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.es.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.es.textLearnHeader; 
+                    textMaxSupply.textContent = language.es.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.es.textCirculatingSupply;                     textLearnHeader.textContent = language.es.textLearnHeader; 
                     textLitecoinDescription.textContent = language.es.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.es.textLitecoinDescriptionStyled; 
                     textZeroTitle.textContent = language.es.textZeroTitle; 
@@ -659,9 +682,9 @@ var currentLanguage = window.location.hash;
                     textSubheadline.textContent = language.de.textSubheadline; 
                     textYearCreated.textContent = language.de.textYearCreated; 
                     textMarketPrice.textContent = language.de.textMarketPrice;  
-                    textMarketCap.textContent  = language.de.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.de.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.de.textLearnHeader; 
+                    textMarketCap.textContent  = language.de.textMarketCap;  
+                    textMaxSupply.textContent = language.de.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.de.textCirculatingSupply;                      textLearnHeader.textContent = language.de.textLearnHeader; 
                     textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
                     textZeroTitle.textContent = language.de.textZeroTitle; 
@@ -706,8 +729,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.pt.textYearCreated; 
                     textMarketPrice.textContent = language.pt.textMarketPrice;  
                     textMarketCap.textContent  = language.pt.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.pt.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.pt.textLearnHeader; 
+                    textMaxSupply.textContent = language.pt.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.pt.textCirculatingSupply;                      textLearnHeader.textContent = language.pt.textLearnHeader; 
                     textLitecoinDescription.textContent = language.pt.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.pt.textLitecoinDescriptionStyled; 
                     textZeroTitle.textContent = language.pt.textZeroTitle; 
@@ -751,8 +774,9 @@ var currentLanguage = window.location.hash;
                     textSubheadline.textContent = language.ko.textSubheadline; 
                     textYearCreated.textContent = language.ko.textYearCreated; 
                     textMarketPrice.textContent = language.ko.textMarketPrice;  
-                    textMarketCap.textContent  = language.ko.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.ko.textCirculatingPrefixSuffix; 
+                    textMarketCap.textContent  = language.ko.textMarketCap;  
+                    textMaxSupply.textContent = language.ko.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.ko.textCirculatingSupply;   
                     textLearnHeader.textContent = language.ko.textLearnHeader; 
                     textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
@@ -798,8 +822,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.uk.textYearCreated; 
                     textMarketPrice.textContent = language.uk.textMarketPrice;  
                     textMarketCap.textContent  = language.uk.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.uk.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.uk.textLearnHeader; 
+                    textMaxSupply.textContent = language.uk.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.uk.textCirculatingSupply;                    textLearnHeader.textContent = language.uk.textLearnHeader; 
                     textLitecoinDescription.textContent = language.uk.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.uk.textLitecoinDescriptionStyled; 
                     textZeroTitle.textContent = language.uk.textZeroTitle; 
@@ -843,8 +867,9 @@ var currentLanguage = window.location.hash;
                     textSubheadline.textContent = language.ru.textSubheadline; 
                     textYearCreated.textContent = language.ru.textYearCreated; 
                     textMarketPrice.textContent = language.ru.textMarketPrice;  
-                    textMarketCap.textContent  = language.ru.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.ru.textCirculatingPrefixSuffix; 
+                    textMarketCap.textContent  = language.ru.textMarketCap;  
+                    textMaxSupply.textContent = language.ru.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.ru.textCirculatingSupply; 
                     textLearnHeader.textContent = language.ru.textLearnHeader; 
                     textLitecoinDescription.textContent = language.ru.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.ru.textLitecoinDescriptionStyled; 
@@ -889,9 +914,9 @@ var currentLanguage = window.location.hash;
                     textSubheadline.textContent = language.fr.textSubheadline; 
                     textYearCreated.textContent = language.fr.textYearCreated; 
                     textMarketPrice.textContent = language.fr.textMarketPrice;  
-                    textMarketCap.textContent  = language.fr.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.fr.textCirculatingPrefixSuffix; 
-                    textLearnHeader.textContent = language.fr.textLearnHeader; 
+                    textMarketCap.textContent  = language.fr.textMarketCap;  
+                    textMaxSupply.textContent = language.fr.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.fr.textCirculatingSupply;                     textLearnHeader.textContent = language.fr.textLearnHeader; 
                     textLitecoinDescription.textContent = language.fr.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.fr.textLitecoinDescriptionStyled; 
                     textZeroTitle.textContent = language.fr.textZeroTitle; 
@@ -936,7 +961,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.zhCN.textYearCreated; 
                     textMarketPrice.textContent = language.zhCN.textMarketPrice;  
                     textMarketCap.textContent  = language.zhCN.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.zhCN.textCirculatingPrefixSuffix; 
+                    textMaxSupply.textContent = language.zhCN.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.zhCN.textCirculatingSupply;  
                     textLearnHeader.textContent = language.zhCN.textLearnHeader; 
                     textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
@@ -982,7 +1008,8 @@ var currentLanguage = window.location.hash;
                     textYearCreated.textContent = language.tr.textYearCreated; 
                     textMarketPrice.textContent = language.tr.textMarketPrice;  
                     textMarketCap.textContent  = language.tr.textMarketCap; 
-                    textCirculatingPrefixSuffix.textContent = language.tr.textCirculatingPrefixSuffix; 
+                    textMaxSupply.textContent = language.tr.textMaxSupply; 
+                    textCirculatingSupply.textContent = language.tr.textCirculatingSupply; 
                     textLearnHeader.textContent = language.tr.textLearnHeader; 
                     textLitecoinDescription.textContent = language.tr.textLitecoinDescription; 
                     textLitecoinDescriptionStyled.textContent = language.tr.textLitecoinDescriptionStyled; 
