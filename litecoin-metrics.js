@@ -27,7 +27,7 @@ function updateValues(market) {
       
       document.getElementById('ltc-usd-price').innerHTML = "$"+ltcusd;
       document.getElementById('marketcap-usd').innerHTML = "$"+marketcap+"B";
-      document.getElementById('circulating-supply').innerHTML = circulating.toLocaleString("en-US");
+      document.getElementById('circulating-supply').innerHTML = circulating.toLocaleString("en-US")+" LTC";
  }
  
 setTimeout(refreshLTCStats, ms);
