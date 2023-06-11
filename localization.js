@@ -5,14 +5,14 @@
 var currentLanguage = window.location.hash;
 
 // Define the language reload anchors
-    var language = {
-            en: {
+var language = {
+    en: {
                 textAboutMenu: "About",
                 textTeamMenu: "Team",
                 textDonationMenu: "Donation",
                 textSupportMenu: "Support",
                 textHalvingPrefix: "Halving in ",
-                textHalvingSuffix: " days.", 
+                textHalvingSuffix: " hours.", 
                 textViewCountdown: "View Countdown",
                 textHeadline: "The Official Litecoin mobile wallet",
                 textSubheadline: "Litecoin has been operational since 2011 with no downtime! Litewallet is the official wallet backed by Litecoin Foundation that offers simple and safe ways to use Litecoin.",
@@ -51,14 +51,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Repositories:",
                 textFooterSubheadline: "Go to the top"
-            },
-            id: {
+    },
+    id: {
                 textAboutMenu: "Tentang",
                 textTeamMenu: "Tim",
                 textDonationMenu: "Donasi",
                 textSupportMenu: "Dukung",
                 textHalvingPrefix: "Membagi dua dalam ",
-                textHalvingSuffix: " hari. ", 
+                textHalvingSuffix: " jam. ", 
                 textViewCountdown: "Lihat Hitung Mundur",
                 textHeadline: "Dompet Litecoin resmi untuk Smartphone",
                 textSubheadline: "Litecoin telah beroperasi sejak tahun 2011 tanpa henti! Litewallet adalah dompet resmi yang didukung oleh Litecoin Foundation yang menawarkan kemudahan dan keamanan untuk menggunakan Litecoin.",
@@ -97,14 +97,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline:  "Media Sosial Litewallet",
                 textRepositories:  "Repositori:",
                 textFooterSubheadline:  "Ke atas",
-            },
-            fr: {
+    },
+    fr: {
                 textAboutMenu: "À propos",
                 textTeamMenu: "Équipe",
                 textDonationMenu: "Don",
                 textSupportMenu: "Soutien",
                 textHalvingPrefix: "Réduire de moitié",
-                textHalvingSuffix: "jours", 
+                textHalvingSuffix: "heures.", 
                 textViewCountdown: "Afficher le compte à rebours",
                 textHeadline: "Le portefeuille mobile Litecoin officiel",
                 textSubheadline: "Litecoin est opérationnel depuis 2011 sans temps d'arrêt ! Litewallet est le portefeuille officiel soutenu par la Fondation Litecoin qui offre des moyens simples et sûrs d'utiliser Litecoin.",
@@ -144,14 +144,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Référentiels",
                 textFooterSubheadline: "Aller en haut",
-            },
-            es: {
+    },
+    es: {
                 textAboutMenu: "Sobre",
                 textTeamMenu: "Equipo",
                 textDonationMenu: "Donación",
                 textSupportMenu: "Soporte",
                 textHalvingPrefix: "Halving en",
-                textHalvingSuffix: "días",
+                textHalvingSuffix: "horas.",
                 textViewCountdown: "Ver cuenta regresiva",
                 textHeadline: "La cartera móvil Oficial de Litecoin",
                 textHalving: "Halving en 000 días.",
@@ -191,14 +191,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Repositorios:",
                 textFooterSubheadline: "Vé a lo más alto"   
-            },
-            de: {
+    },
+    de: {
                 textAboutMenu: "Über",
                 textTeamMenu: "Team",
                 textDonationMenu: "Spende",
                 textSupportMenu: "Unterstützung",
                 textHalvingPrefix: "Halbierung in ",
-                textHalvingSuffix: " Tagen. ", 
+                textHalvingSuffix: " Stunden. ", 
                 textViewCountdown: "Countdown anzeigen",
                 textHeadline: "Die offizielle Litecoin-Geldbörse",
                 textSubheadline: "Litecoin ist seit 2011 ohne Ausfallzeiten in Betrieb! Litewallet ist die offizielle, von der Litecoin Foundation unterstützte Wallet, die einfache und sichere Möglichkeiten zur Nutzung von Litecoin bietet.",
@@ -238,14 +238,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet Soziale Medien",
                 textRepositories: "Repositories:",
                 textFooterSubheadline: "Nach oben gehen"
-            },
-            ko: {
+    },
+    ko: {
                 textAboutMenu: "에 대한",
                 textTeamMenu: "팀",
                 textDonationMenu: "기부",
                 textSupportMenu: "지원하다",
                 textHalvingPrefix: "반감",
-                textHalvingSuffix: "날", 
+                textHalvingSuffix: " 시간.", 
                 textViewCountdown: "카운트다운 보기",
                 textHeadline: "공식 Litecoin 모바일 지갑",
                 textHalving: "000일 후 반감기",
@@ -285,14 +285,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "라이트월렛 소셜",
                 textRepositories: "리포지토리:",
                 textFooterSubheadline: "맨 위로 이동"
-            },
-            uk: { 
+    },
+    uk: { 
                 textAboutMenu: "Про",
                 textTeamMenu: "Команда",
                 textDonationMenu: "Пожертва",
                 textSupportMenu: "Підтримка",
                 textHalvingPrefix: "Вдвічі менше",
-                textHalvingSuffix: "днів", 
+                textHalvingSuffix: " годин.", 
                 textViewCountdown: "Переглянути зворотний відлік",
                 textHeadline: "Офіційний мобільний гаманець Litecoin",
                 textSubheadline: "Litecoin працює з 2011 року без жодного простою! Litewallet - це офіційний гаманець, що підтримується Litecoin Foundation, який пропонує прості та безпечні способи використання Litecoin.",
@@ -332,14 +332,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Соц. Litewallet",
                 textRepositories: "Репозиторії:",
                 textFooterSubheadline: "Перейти на вершину"
-            },
-            ru: {
+    },
+    ru: {
                 textAboutMenu: "О",
                 textTeamMenu: "Команда",
                 textDonationMenu: "Пожертвование",
                 textSupportMenu: "Поддерживать",
                 textHalvingPrefix: "Уменьшение вдвое",
-                textHalvingSuffix: "дней.", 
+                textHalvingSuffix: " часов.", 
                 textViewCountdown: "Просмотр обратного отсчета",
                 textHeadline: "Официальный мобильный кошелек Litecoin",
                 textSubheadline: "Litecoin работает с 2011 года без простоев! Litewallet — это официальный кошелек, поддерживаемый Litecoin Foundation, который предлагает простые и безопасные способы использования Litecoin.",
@@ -378,14 +378,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet социальный",
                 textRepositories: "Репозитории:",
                 textFooterSubheadline: "Перейти к началу"
-            },
-            pt: {
+    },
+    pt: {
                 textAboutMenu: "Sobre",
                 textTeamMenu: "Equipe",
                 textDonationMenu: "Doação",
                 textSupportMenu: "Apoiar",
                 textHalvingPrefix: "Reduzir pela metade",
-                textHalvingSuffix: "dias", 
+                textHalvingSuffix: " horas.", 
                 textViewCountdown: "Ver contagem regressiva",
                 textHeadline: "A carteira móvel Litecoin oficial",
                 textSubheadline: "O Litecoin está em operação desde 2011 sem tempo de inatividade! Litewallet é a carteira oficial apoiada pela Litecoin Foundation que oferece maneiras simples e seguras de usar o Litecoin.",
@@ -418,21 +418,21 @@ var currentLanguage = window.location.hash;
                 textVolunteerHeadline: "Inscreva-se para se tornar um voluntário",
                 textDonationHeadline: "Capacite o futuro do Litecoin com sua doação",
                 textDonationSubheadline: "Sua doação para os desenvolvedores de aplicativos Litewallet ajudará a alimentar o desenvolvimento de recursos de ponta e ultrapassar os limites do que é possível. Dê o presente do progresso e apoie a equipe agora!",
-				textDonationScan: "Digitalizar para dar!",
-				textDonationsSend: "Envie LTC para este endereço:",
-				textFooterHeadline: "Litewallet, a carteira móvel Litecoin oficial", 
+				        textDonationScan: "Digitalizar para dar!",
+				        textDonationsSend: "Envie LTC para este endereço:",
+				        textFooterHeadline: "Litewallet, a carteira móvel Litecoin oficial", 
                 textRepoHeadline: "O código Litewallet é de código aberto e usamos o Github para manter a base de código.",
                 textSocialHeadline: "Litewallet social",
                 textRepositories: "Repositórios:",
                 textFooterSubheadline: "ir para o topo"
-            },
-            zhCN: {
+    },
+    zhCN: {
                 textAboutMenu: "关于",
                 textTeamMenu: "团队",
                 textDonationMenu: "捐款",
                 textSupportMenu: "支持",
                 textHalvingPrefix: "减半",
-                textHalvingSuffix: "天。", 
+                textHalvingSuffix: " 小时.", 
                 textViewCountdown: "查看倒计时",
                 textHeadline: "官方莱特币手机钱包",
                 textSubheadline: "莱特币自 2011 年开始运营，没有停机！ Litewallet 是由 Litecoin Foundation 支持的官方钱包，它提供简单安全的方式来使用 Litecoin。",
@@ -471,14 +471,14 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "莱特钱包社交",
                 textRepositories: "存储库：",
                 textFooterSubheadline: "到顶部"
-            },
-            tr: {
+    },
+    tr: {
                 textAboutMenu: "Hakkında",
                 textTeamMenu: "Takım",
                 textDonationMenu: "Bağış",
                 textSupportMenu: "Destek",
                 textHalvingPrefix: "Yarıya iniyor ",
-                textHalvingSuffix: " günde. ", 
+                textHalvingSuffix: " saat.", 
                 textViewCountdown: "Geri Sayımı Görüntüle",
                 textHeadline: "Resmi Litecoin mobil cüzdanı",
                 textSubheadline: "Litecoin 2011'den beri hiç kesinti olmadan çalışıyor! Litewallet, Litecoin'i kullanmanın basit ve güvenli yollarını sunan Litecoin Vakfı tarafından desteklenen resmi cüzdandır.",
@@ -517,563 +517,568 @@ var currentLanguage = window.location.hash;
                 textSocialHeadline: "Litewallet sosyal medya",
                 textRepositories: "Depolar:",
                 textFooterSubheadline: "En üste git"
-            }
-        };
+    }
+};
 
-        if (window.location.hash) { 
-            //Using switch statement reduces the time from O(n) to O(1)
-            switch (currentLanguage) {
-                case "#en":
-                    document.querySelector(".selected").innerText = "English";
-                    textAboutMenu.textContent  = language.en.textAboutMenu;
-                    textTeamMenu.textContent = language.en.textTeamMenu;
-                    textDonationMenu.textContent = language.en.textDonationMenu;
-                    textSupportMenu.textContent = language.en.textSupportMenu;
-                    textHalvingPrefix.textContent = language.en.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.en.textHalvingSuffix;
-                    textViewCountdown.textContent = language.en.textViewCountdown;
-                    textHeadline.textContent = language.en.textHeadline;
-                    textSubheadline.textContent = language.en.textSubheadline; 
-                    textYearCreated.textContent = language.en.textYearCreated; 
-                    textMarketPrice.textContent = language.en.textMarketPrice;  
-                    textMarketCap.textContent  = language.en.textMarketCap; 
-                    textMaxSupply.textContent = language.en.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.en.textCirculatingSupply; 
-                    textLearnHeader.textContent = language.en.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.en.textZeroTitle; 
-                    textMWEBTitle.textContent = language.en.textMWEBTitle; 
-                    textCheapTitle.textContent = language.en.textCheapTitle; 
-                    textFastTitle.textContent = language.en.textFastTitle; 
-                    textZeroDetail.textContent = language.en.textZeroDetail; 
-                    textMWEBDetail.textContent = language.en.textMWEBDetail; 
-                    textCheapDetail.textContent = language.en.textCheapDetail; 
-                    textFastDetail.textContent = language.en.textFastDetail; 
-                    textPartnerHeadline.textContent = language.en.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.en.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.en.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.en.textSimplexDetail; 
-                    textUDDetail.textContent = language.en.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.en.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.en.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.en.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.en.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.en.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.en.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.en.textDonationSubheadline; 
-                    textDonationScan.textContent = language.en.textDonationScan;
-                    textDonationsSend.textContent = language.en.textDonationsSend; 
-                    textFooterHeadline.textContent = language.en.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.en.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.en.textSocialHeadline; 
-                    textRepositories.textContent = language.en.textRepositories; 
-                    textFooterSubheadline = language.en.textFooterSubheadline;  
-                    break;
-                case "#id":
-                    document.querySelector(".selected").innerText = "Bahasa Indonesia";
-                    textAboutMenu.textContent  = language.id.textAboutMenu;
-                    textTeamMenu.textContent = language.id.textTeamMenu;
-                    textDonationMenu.textContent = language.id.textDonationMenu;
-                    textSupportMenu.textContent = language.id.textSupportMenu;
-                    textHalvingPrefix.textContent = language.id.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.id.textHalvingSuffix;
-                    textViewCountdown.textContent = language.id.textViewCountdown;
-                    textHeadline.textContent = language.id.textHeadline;
-                    textSubheadline.textContent = language.id.textSubheadline; 
-                    textYearCreated.textContent = language.id.textYearCreated; 
-                    textMarketPrice.textContent = language.id.textMarketPrice;  
-                    textMarketCap.textContent  = language.id.textMarketCap;  
-                    textMaxSupply.textContent = language.id.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.id.textCirculatingSupply; 
-                    textLearnHeader.textContent = language.id.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.id.textZeroTitle; 
-                    textMWEBTitle.textContent = language.id.textMWEBTitle; 
-                    textCheapTitle.textContent = language.id.textCheapTitle; 
-                    textFastTitle.textContent = language.id.textFastTitle; 
-                    textZeroDetail.textContent = language.id.textZeroDetail; 
-                    textMWEBDetail.textContent = language.id.textMWEBDetail; 
-                    textCheapDetail.textContent = language.id.textCheapDetail; 
-                    textFastDetail.textContent = language.id.textFastDetail; 
-                    textPartnerHeadline.textContent = language.id.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.id.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.id.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.id.textSimplexDetail; 
-                    textUDDetail.textContent = language.id.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.id.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.id.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.id.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.id.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.id.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.id.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.id.textDonationSubheadline; 
-                    textDonationScan.textContent = language.id.textDonationScan;
-                    textDonationsSend.textContent = language.id.textDonationsSend; 
-                    textFooterHeadline.textContent = language.id.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.id.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.id.textSocialHeadline; 
-                    textRepositories.textContent = language.id.textRepositories; 
-                    textFooterSubheadline = language.id.textFooterSubheadline;  
-                    break;
-                case "#es":
-                    document.querySelector(".selected").innerText = "Español";
-                    textAboutMenu.textContent  = language.es.textAboutMenu;
-                    textTeamMenu.textContent = language.es.textTeamMenu;
-                    textDonationMenu.textContent = language.es.textDonationMenu;
-                    textSupportMenu.textContent = language.es.textSupportMenu;
-                    textHalvingPrefix.textContent = language.es.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.es.textHalvingSuffix;
-                    textViewCountdown.textContent = language.es.textViewCountdown;
-                    textHeadline.textContent = language.es.textHeadline;
-                    textSubheadline.textContent = language.es.textSubheadline; 
-                    textYearCreated.textContent = language.es.textYearCreated; 
-                    textMarketPrice.textContent = language.es.textMarketPrice;  
-                    textMarketCap.textContent  = language.es.textMarketCap; 
-                    textMaxSupply.textContent = language.es.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.es.textCirculatingSupply;                     textLearnHeader.textContent = language.es.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.es.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.es.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.es.textZeroTitle; 
-                    textMWEBTitle.textContent = language.es.textMWEBTitle; 
-                    textCheapTitle.textContent = language.es.textCheapTitle; 
-                    textFastTitle.textContent = language.es.textFastTitle; 
-                    textZeroDetail.textContent = language.es.textZeroDetail; 
-                    textMWEBDetail.textContent = language.es.textMWEBDetail; 
-                    textCheapDetail.textContent = language.es.textCheapDetail; 
-                    textFastDetail.textContent = language.es.textFastDetail; 
-                    textPartnerHeadline.textContent = language.es.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.es.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.es.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.es.textSimplexDetail; 
-                    textUDDetail.textContent = language.es.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.es.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.es.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.es.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.es.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.es.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.es.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.es.textDonationSubheadline; 
-                    textDonationScan.textContent = language.es.textDonationScan;
-                    textDonationsSend.textContent = language.es.textDonationsSend; 
-                    textFooterHeadline.textContent = language.es.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.es.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.es.textSocialHeadline; 
-                    textRepositories.textContent = language.es.textRepositories; 
-                    textFooterSubheadline = language.es.textFooterSubheadline;
-                    break;
-                case "#de":
-                    document.querySelector(".selected").innerText = "Deutsch";
-                    textAboutMenu.textContent  = language.de.textAboutMenu;
-                    textTeamMenu.textContent = language.de.textTeamMenu;
-                    textDonationMenu.textContent = language.de.textDonationMenu;
-                    textSupportMenu.textContent = language.de.textSupportMenu;
-                    textHalvingPrefix.textContent = language.de.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.de.textHalvingSuffix;
-                    textViewCountdown.textContent = language.de.textViewCountdown;
-                    textHeadline.textContent = language.de.textHeadline;
-                    textSubheadline.textContent = language.de.textSubheadline; 
-                    textYearCreated.textContent = language.de.textYearCreated; 
-                    textMarketPrice.textContent = language.de.textMarketPrice;  
-                    textMarketCap.textContent  = language.de.textMarketCap;  
-                    textMaxSupply.textContent = language.de.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.de.textCirculatingSupply;                      textLearnHeader.textContent = language.de.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.de.textZeroTitle; 
-                    textMWEBTitle.textContent = language.de.textMWEBTitle; 
-                    textCheapTitle.textContent = language.de.textCheapTitle; 
-                    textFastTitle.textContent = language.de.textFastTitle; 
-                    textZeroDetail.textContent = language.de.textZeroDetail; 
-                    textMWEBDetail.textContent = language.de.textMWEBDetail; 
-                    textCheapDetail.textContent = language.de.textCheapDetail; 
-                    textFastDetail.textContent = language.de.textFastDetail; 
-                    textPartnerHeadline.textContent = language.de.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.de.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.de.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.de.textSimplexDetail; 
-                    textUDDetail.textContent = language.de.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.de.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.de.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.de.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.de.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.de.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.de.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.de.textDonationSubheadline; 
-                    textDonationScan.textContent = language.de.textDonationScan;
-                    textDonationsSend.textContent = language.de.textDonationsSend; 
-                    textFooterHeadline.textContent = language.de.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.de.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.de.textSocialHeadline; 
-                    textRepositories.textContent = language.de.textRepositories; 
-                    textFooterSubheadline = language.de.textFooterSubheadline;  
-                    break;
-                case "#pt":
-                    document.querySelector(".selected").innerText = "Portuguese";
-                    textAboutMenu.textContent  = language.pt.textAboutMenu;
-                    textTeamMenu.textContent = language.pt.textTeamMenu;
-                    textDonationMenu.textContent = language.pt.textDonationMenu;
-                    textSupportMenu.textContent = language.pt.textSupportMenu;
-                    textHalvingPrefix.textContent = language.pt.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.pt.textHalvingSuffix;
-                    textViewCountdown.textContent = language.pt.textViewCountdown;
-                    textHeadline.textContent = language.pt.textHeadline;
-                    textSubheadline.textContent = language.pt.textSubheadline; 
-                    textYearCreated.textContent = language.pt.textYearCreated; 
-                    textMarketPrice.textContent = language.pt.textMarketPrice;  
-                    textMarketCap.textContent  = language.pt.textMarketCap; 
-                    textMaxSupply.textContent = language.pt.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.pt.textCirculatingSupply;                      textLearnHeader.textContent = language.pt.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.pt.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.pt.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.pt.textZeroTitle; 
-                    textMWEBTitle.textContent = language.pt.textMWEBTitle; 
-                    textCheapTitle.textContent = language.pt.textCheapTitle; 
-                    textFastTitle.textContent = language.pt.textFastTitle; 
-                    textZeroDetail.textContent = language.pt.textZeroDetail; 
-                    textMWEBDetail.textContent = language.pt.textMWEBDetail; 
-                    textCheapDetail.textContent = language.pt.textCheapDetail; 
-                    textFastDetail.textContent = language.pt.textFastDetail; 
-                    textPartnerHeadline.textContent = language.pt.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.pt.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.pt.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.pt.textSimplexDetail; 
-                    textUDDetail.textContent = language.pt.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.pt.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.pt.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.pt.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.pt.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.pt.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.pt.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.pt.textDonationSubheadline; 
-                    textDonationScan.textContent = language.pt.textDonationScan;
-                    textDonationsSend.textContent = language.pt.textDonationsSend; 
-                    textFooterHeadline.textContent = language.pt.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.pt.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.pt.textSocialHeadline; 
-                    textRepositories.textContent = language.pt.textRepositories; 
-                    textFooterSubheadline = language.pt.textFooterSubheadline;  
-                    break;
-                case "#ko":
-                    document.querySelector(".selected").innerText = "한국인";
-                    textAboutMenu.textContent  = language.ko.textAboutMenu;
-                    textTeamMenu.textContent = language.ko.textTeamMenu;
-                    textDonationMenu.textContent = language.ko.textDonationMenu;
-                    textSupportMenu.textContent = language.ko.textSupportMenu;
-                    textHalvingPrefix.textContent = language.ko.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.ko.textHalvingSuffix;
-                    textViewCountdown.textContent = language.ko.textViewCountdown;
-                    textHeadline.textContent = language.ko.textHeadline;
-                    textSubheadline.textContent = language.ko.textSubheadline; 
-                    textYearCreated.textContent = language.ko.textYearCreated; 
-                    textMarketPrice.textContent = language.ko.textMarketPrice;  
-                    textMarketCap.textContent  = language.ko.textMarketCap;  
-                    textMaxSupply.textContent = language.ko.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.ko.textCirculatingSupply;   
-                    textLearnHeader.textContent = language.ko.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.ko.textZeroTitle; 
-                    textMWEBTitle.textContent = language.ko.textMWEBTitle; 
-                    textCheapTitle.textContent = language.ko.textCheapTitle; 
-                    textFastTitle.textContent = language.ko.textFastTitle; 
-                    textZeroDetail.textContent = language.ko.textZeroDetail; 
-                    textMWEBDetail.textContent = language.ko.textMWEBDetail; 
-                    textCheapDetail.textContent = language.ko.textCheapDetail; 
-                    textFastDetail.textContent = language.ko.textFastDetail; 
-                    textPartnerHeadline.textContent = language.ko.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.ko.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.ko.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.ko.textSimplexDetail; 
-                    textUDDetail.textContent = language.ko.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.ko.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.ko.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.ko.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.ko.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.ko.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.ko.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.ko.textDonationSubheadline; 
-                    textDonationScan.textContent = language.ko.textDonationScan;
-                    textDonationsSend.textContent = language.ko.textDonationsSend; 
-                    textFooterHeadline.textContent = language.ko.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.ko.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.ko.textSocialHeadline; 
-                    textRepositories.textContent = language.ko.textRepositories; 
-                    textFooterSubheadline = language.ko.textFooterSubheadline;
-                    break;
-                case "#uk":
-                    document.querySelector(".selected").innerText = "українська";
-                    textAboutMenu.textContent  = language.uk.textAboutMenu;
-                    textTeamMenu.textContent = language.uk.textTeamMenu;
-                    textDonationMenu.textContent = language.uk.textDonationMenu;
-                    textSupportMenu.textContent = language.uk.textSupportMenu;
-                    textHalvingPrefix.textContent = language.uk.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.uk.textHalvingSuffix;
-                    textViewCountdown.textContent = language.uk.textViewCountdown;
-                    textHeadline.textContent = language.uk.textHeadline;
-                    textSubheadline.textContent = language.uk.textSubheadline; 
-                    textYearCreated.textContent = language.uk.textYearCreated; 
-                    textMarketPrice.textContent = language.uk.textMarketPrice;  
-                    textMarketCap.textContent  = language.uk.textMarketCap; 
-                    textMaxSupply.textContent = language.uk.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.uk.textCirculatingSupply;                    textLearnHeader.textContent = language.uk.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.uk.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.uk.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.uk.textZeroTitle; 
-                    textMWEBTitle.textContent = language.uk.textMWEBTitle; 
-                    textCheapTitle.textContent = language.uk.textCheapTitle; 
-                    textFastTitle.textContent = language.uk.textFastTitle; 
-                    textZeroDetail.textContent = language.uk.textZeroDetail; 
-                    textMWEBDetail.textContent = language.uk.textMWEBDetail; 
-                    textCheapDetail.textContent = language.uk.textCheapDetail; 
-                    textFastDetail.textContent = language.uk.textFastDetail; 
-                    textPartnerHeadline.textContent = language.uk.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.uk.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.uk.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.uk.textSimplexDetail; 
-                    textUDDetail.textContent = language.uk.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.uk.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.uk.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.uk.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.uk.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.uk.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.uk.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.uk.textDonationSubheadline; 
-                    textDonationScan.textContent = language.uk.textDonationScan;
-                    textDonationsSend.textContent = language.uk.textDonationsSend; 
-                    textFooterHeadline.textContent = language.uk.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.uk.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.uk.textSocialHeadline; 
-                    textRepositories.textContent = language.uk.textRepositories; 
-                    textFooterSubheadline = language.uk.textFooterSubheadline;
-                    break;
-                case "#ru":
-                    document.querySelector(".selected").innerText = "Русский";
-                    textAboutMenu.textContent  = language.ru.textAboutMenu;
-                    textTeamMenu.textContent = language.ru.textTeamMenu;
-                    textDonationMenu.textContent = language.ru.textDonationMenu;
-                    textSupportMenu.textContent = language.ru.textSupportMenu;
-                    textHalvingPrefix.textContent = language.ru.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.ru.textHalvingSuffix;
-                    textViewCountdown.textContent = language.ru.textViewCountdown;
-                    textHeadline.textContent = language.ru.textHeadline;
-                    textSubheadline.textContent = language.ru.textSubheadline; 
-                    textYearCreated.textContent = language.ru.textYearCreated; 
-                    textMarketPrice.textContent = language.ru.textMarketPrice;  
-                    textMarketCap.textContent  = language.ru.textMarketCap;  
-                    textMaxSupply.textContent = language.ru.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.ru.textCirculatingSupply; 
-                    textLearnHeader.textContent = language.ru.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.ru.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.ru.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.ru.textZeroTitle; 
-                    textMWEBTitle.textContent = language.ru.textMWEBTitle; 
-                    textCheapTitle.textContent = language.ru.textCheapTitle; 
-                    textFastTitle.textContent = language.ru.textFastTitle; 
-                    textZeroDetail.textContent = language.ru.textZeroDetail; 
-                    textMWEBDetail.textContent = language.ru.textMWEBDetail; 
-                    textCheapDetail.textContent = language.ru.textCheapDetail; 
-                    textFastDetail.textContent = language.ru.textFastDetail; 
-                    textPartnerHeadline.textContent = language.ru.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.ru.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.ru.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.ru.textSimplexDetail; 
-                    textUDDetail.textContent = language.ru.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.ru.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.ru.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.ru.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.ru.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.ru.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.ru.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.ru.textDonationSubheadline; 
-                    textDonationScan.textContent = language.ru.textDonationScan;
-                    textDonationsSend.textContent = language.ru.textDonationsSend; 
-                    textFooterHeadline.textContent = language.ru.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.ru.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.ru.textSocialHeadline; 
-                    textRepositories.textContent = language.ru.textRepositories; 
-                    textFooterSubheadline = language.ru.textFooterSubheadline;
-                    break;
-                case "#fr":
-                    document.querySelector(".selected").innerText = "Français";
-                    textAboutMenu.textContent  = language.fr.textAboutMenu;
-                    textTeamMenu.textContent = language.fr.textTeamMenu;
-                    textDonationMenu.textContent = language.fr.textDonationMenu;
-                    textSupportMenu.textContent = language.fr.textSupportMenu;
-                    textHalvingPrefix.textContent = language.fr.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.fr.textHalvingSuffix;
-                    textViewCountdown.textContent = language.fr.textViewCountdown;
-                    textHeadline.textContent = language.fr.textHeadline;
-                    textSubheadline.textContent = language.fr.textSubheadline; 
-                    textYearCreated.textContent = language.fr.textYearCreated; 
-                    textMarketPrice.textContent = language.fr.textMarketPrice;  
-                    textMarketCap.textContent  = language.fr.textMarketCap;  
-                    textMaxSupply.textContent = language.fr.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.fr.textCirculatingSupply;                     textLearnHeader.textContent = language.fr.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.fr.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.fr.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.fr.textZeroTitle; 
-                    textMWEBTitle.textContent = language.fr.textMWEBTitle; 
-                    textCheapTitle.textContent = language.fr.textCheapTitle; 
-                    textFastTitle.textContent = language.fr.textFastTitle; 
-                    textZeroDetail.textContent = language.fr.textZeroDetail; 
-                    textMWEBDetail.textContent = language.fr.textMWEBDetail; 
-                    textCheapDetail.textContent = language.fr.textCheapDetail; 
-                    textFastDetail.textContent = language.fr.textFastDetail; 
-                    textPartnerHeadline.textContent = language.fr.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.fr.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.fr.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.fr.textSimplexDetail; 
-                    textUDDetail.textContent = language.fr.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.fr.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.fr.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.fr.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.fr.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.fr.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.fr.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.fr.textDonationSubheadline; 
-                    textDonationScan.textContent = language.fr.textDonationScan;
-                    textDonationsSend.textContent = language.fr.textDonationsSend; 
-                    textFooterHeadline.textContent = language.fr.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.fr.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.fr.textSocialHeadline; 
-                    textRepositories.textContent = language.fr.textRepositories; 
-                    textFooterSubheadline = language.fr.textFooterSubheadline;  
-                    break;
-                case "#zhCN":
-                    document.querySelector(".selected").innerText = "中国人";
-                    textAboutMenu.textContent  = language.zhCN.textAboutMenu;
-                    textTeamMenu.textContent = language.zhCN.textTeamMenu;
-                    textDonationMenu.textContent = language.zhCN.textDonationMenu;
-                    textSupportMenu.textContent = language.zhCN.textSupportMenu;
-                    textHalvingPrefix.textContent = language.zhCN.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.zhCN.textHalvingSuffix;
-                    textViewCountdown.textContent = language.zhCN.textViewCountdown;
-                    textHeadline.textContent = language.zhCN.textHeadline;
-                    textSubheadline.textContent = language.zhCN.textSubheadline; 
-                    textYearCreated.textContent = language.zhCN.textYearCreated; 
-                    textMarketPrice.textContent = language.zhCN.textMarketPrice;  
-                    textMarketCap.textContent  = language.zhCN.textMarketCap; 
-                    textMaxSupply.textContent = language.zhCN.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.zhCN.textCirculatingSupply;  
-                    textLearnHeader.textContent = language.zhCN.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.zhCN.textZeroTitle; 
-                    textMWEBTitle.textContent = language.zhCN.textMWEBTitle; 
-                    textCheapTitle.textContent = language.zhCN.textCheapTitle; 
-                    textFastTitle.textContent = language.zhCN.textFastTitle; 
-                    textZeroDetail.textContent = language.zhCN.textZeroDetail; 
-                    textMWEBDetail.textContent = language.zhCN.textMWEBDetail; 
-                    textCheapDetail.textContent = language.zhCN.textCheapDetail; 
-                    textFastDetail.textContent = language.zhCN.textFastDetail; 
-                    textPartnerHeadline.textContent = language.zhCN.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.zhCN.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.zhCN.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.zhCN.textSimplexDetail; 
-                    textUDDetail.textContent = language.zhCN.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.zhCN.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.zhCN.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.zhCN.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.zhCN.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.zhCN.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.zhCN.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline;
-                    textDonationScan.textContent = language.zhCN.textDonationScan; 
-                    textDonationsSend.textContent = language.zhCN.textDonationsSend; 
-                    textFooterHeadline.textContent = language.zhCN.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.zhCN.textSocialHeadline; 
-                    textRepositories.textContent = language.zhCN.textRepositories; 
-                    textFooterSubheadline = language.zhCN.textFooterSubheadline;  
-                    break;
-                case "#tr":
-                    document.querySelector(".selected").innerText = "Türkçe";
-                    textAboutMenu.textContent  = language.tr.textAboutMenu;
-                    textTeamMenu.textContent = language.tr.textTeamMenu;
-                    textDonationMenu.textContent = language.tr.textDonationMenu;
-                    textSupportMenu.textContent = language.tr.textSupportMenu;
-                    textHalvingPrefix.textContent = language.tr.textHalvingPrefix;
-                    textHalvingSuffix.textContent = language.tr.textHalvingSuffix;
-                    textViewCountdown.textContent = language.tr.textViewCountdown;
-                    textHeadline.textContent = language.tr.textHeadline;
-                    textSubheadline.textContent = language.tr.textSubheadline; 
-                    textYearCreated.textContent = language.tr.textYearCreated; 
-                    textMarketPrice.textContent = language.tr.textMarketPrice;  
-                    textMarketCap.textContent  = language.tr.textMarketCap; 
-                    textMaxSupply.textContent = language.tr.textMaxSupply; 
-                    textCirculatingSupply.textContent = language.tr.textCirculatingSupply; 
-                    textLearnHeader.textContent = language.tr.textLearnHeader; 
-                    textLitecoinDescription.textContent = language.tr.textLitecoinDescription; 
-                    textLitecoinDescriptionStyled.textContent = language.tr.textLitecoinDescriptionStyled; 
-                    textZeroTitle.textContent = language.tr.textZeroTitle; 
-                    textMWEBTitle.textContent = language.tr.textMWEBTitle; 
-                    textCheapTitle.textContent = language.tr.textCheapTitle; 
-                    textFastTitle.textContent = language.tr.textFastTitle; 
-                    textZeroDetail.textContent = language.tr.textZeroDetail; 
-                    textMWEBDetail.textContent = language.tr.textMWEBDetail; 
-                    textCheapDetail.textContent = language.tr.textCheapDetail; 
-                    textFastDetail.textContent = language.tr.textFastDetail; 
-                    textPartnerHeadline.textContent = language.tr.textPartnerHeadline; 
-                    textBitrefillDetail.textContent = language.tr.textBitrefillDetail; 
-                    textMoonpayDetail.textContent = language.tr.textMoonpayDetail; 
-                    textSimplexDetail.textContent = language.tr.textSimplexDetail; 
-                    textUDDetail.textContent = language.tr.textUDDetail; 
-                    textLitecoinCreatorHeadline.textContent = language.tr.textLitecoinCreatorHeadline; 
-                    textLitecoinCreatorSubheadline.textContent = language.tr.textLitecoinCreatorSubheadline; 
-                    textTeamHeadline.textContent = language.tr.textTeamHeadline; 
-                    textTeamSubheadline.textContent = language.tr.textTeamSubheadline; 
-                    textVolunteerHeadline.textContent = language.tr.textVolunteerHeadline; 
-                    textDonationHeadline.textContent = language.tr.textDonationHeadline; 
-                    textDonationSubheadline.textContent = language.tr.textDonationSubheadline; 
-                    textDonationScan.textContent = language.tr.textDonationScan;
-                    textDonationsSend.textContent = language.tr.textDonationsSend; 
-                    textFooterHeadline.textContent = language.tr.textFooterHeadline; 
-                    textRepoHeadline.textContent = language.tr.textRepoHeadline; 
-                    textSocialHeadline.textContent = language.tr.textSocialHeadline; 
-                    textRepositories.textContent = language.tr.textRepositories; 
-                    textFooterSubheadline = language.tr.textFooterSubheadline;
-                    break; 
-            } 
-        }
+if (window.location.hash) { 
+    //Using switch statement reduces the time from O(n) to O(1)
+    switch (currentLanguage) {
+        case "#en":
+            document.querySelector(".selected").innerText = "English";
+            textAboutMenu.textContent  = language.en.textAboutMenu;
+            textTeamMenu.textContent = language.en.textTeamMenu;
+            textDonationMenu.textContent = language.en.textDonationMenu;
+            textSupportMenu.textContent = language.en.textSupportMenu;
+            textHalvingPrefix.textContent = language.en.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.en.textHalvingSuffix;
+            textViewCountdown.textContent = language.en.textViewCountdown;
+            textHeadline.textContent = language.en.textHeadline;
+            textSubheadline.textContent = language.en.textSubheadline; 
+            textYearCreated.textContent = language.en.textYearCreated; 
+            textMarketPrice.textContent = language.en.textMarketPrice;  
+            textMarketCap.textContent  = language.en.textMarketCap; 
+            textMaxSupply.textContent = language.en.textMaxSupply; 
+            textCirculatingSupply.textContent = language.en.textCirculatingSupply; 
+            textLearnHeader.textContent = language.en.textLearnHeader; 
+            textLitecoinDescription.textContent = language.en.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.en.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.en.textZeroTitle; 
+            textMWEBTitle.textContent = language.en.textMWEBTitle; 
+            textCheapTitle.textContent = language.en.textCheapTitle; 
+            textFastTitle.textContent = language.en.textFastTitle; 
+            textZeroDetail.textContent = language.en.textZeroDetail; 
+            textMWEBDetail.textContent = language.en.textMWEBDetail; 
+            textCheapDetail.textContent = language.en.textCheapDetail; 
+            textFastDetail.textContent = language.en.textFastDetail; 
+            textPartnerHeadline.textContent = language.en.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.en.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.en.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.en.textSimplexDetail; 
+            textUDDetail.textContent = language.en.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.en.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.en.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.en.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.en.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.en.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.en.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.en.textDonationSubheadline; 
+            textDonationScan.textContent = language.en.textDonationScan;
+            textDonationsSend.textContent = language.en.textDonationsSend; 
+            textFooterHeadline.textContent = language.en.textFooterHeadline; 
+            textRepoHeadline.textContent = language.en.textRepoHeadline; 
+            textSocialHeadline.textContent = language.en.textSocialHeadline; 
+            textRepositories.textContent = language.en.textRepositories; 
+            textFooterSubheadline = language.en.textFooterSubheadline;  
+            break;
+        case "#id":
+            document.querySelector(".selected").innerText = "Bahasa Indonesia";
+            textAboutMenu.textContent  = language.id.textAboutMenu;
+            textTeamMenu.textContent = language.id.textTeamMenu;
+            textDonationMenu.textContent = language.id.textDonationMenu;
+            textSupportMenu.textContent = language.id.textSupportMenu;
+            textHalvingPrefix.textContent = language.id.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.id.textHalvingSuffix;
+            textViewCountdown.textContent = language.id.textViewCountdown;
+            textHeadline.textContent = language.id.textHeadline;
+            textSubheadline.textContent = language.id.textSubheadline; 
+            textYearCreated.textContent = language.id.textYearCreated; 
+            textMarketPrice.textContent = language.id.textMarketPrice;  
+            textMarketCap.textContent  = language.id.textMarketCap;  
+            textMaxSupply.textContent = language.id.textMaxSupply; 
+            textCirculatingSupply.textContent = language.id.textCirculatingSupply; 
+            textLearnHeader.textContent = language.id.textLearnHeader; 
+            textLitecoinDescription.textContent = language.id.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.id.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.id.textZeroTitle; 
+            textMWEBTitle.textContent = language.id.textMWEBTitle; 
+            textCheapTitle.textContent = language.id.textCheapTitle; 
+            textFastTitle.textContent = language.id.textFastTitle; 
+            textZeroDetail.textContent = language.id.textZeroDetail; 
+            textMWEBDetail.textContent = language.id.textMWEBDetail; 
+            textCheapDetail.textContent = language.id.textCheapDetail; 
+            textFastDetail.textContent = language.id.textFastDetail; 
+            textPartnerHeadline.textContent = language.id.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.id.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.id.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.id.textSimplexDetail; 
+            textUDDetail.textContent = language.id.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.id.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.id.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.id.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.id.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.id.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.id.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.id.textDonationSubheadline; 
+            textDonationScan.textContent = language.id.textDonationScan;
+            textDonationsSend.textContent = language.id.textDonationsSend; 
+            textFooterHeadline.textContent = language.id.textFooterHeadline; 
+            textRepoHeadline.textContent = language.id.textRepoHeadline; 
+            textSocialHeadline.textContent = language.id.textSocialHeadline; 
+            textRepositories.textContent = language.id.textRepositories; 
+            textFooterSubheadline = language.id.textFooterSubheadline;  
+            break;
+        case "#es":
+            document.querySelector(".selected").innerText = "Español";
+            textAboutMenu.textContent  = language.es.textAboutMenu;
+            textTeamMenu.textContent = language.es.textTeamMenu;
+            textDonationMenu.textContent = language.es.textDonationMenu;
+            textSupportMenu.textContent = language.es.textSupportMenu;
+            textHalvingPrefix.textContent = language.es.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.es.textHalvingSuffix;
+            textViewCountdown.textContent = language.es.textViewCountdown;
+            textHeadline.textContent = language.es.textHeadline;
+            textSubheadline.textContent = language.es.textSubheadline; 
+            textYearCreated.textContent = language.es.textYearCreated; 
+            textMarketPrice.textContent = language.es.textMarketPrice;  
+            textMarketCap.textContent  = language.es.textMarketCap; 
+            textMaxSupply.textContent = language.es.textMaxSupply; 
+            textCirculatingSupply.textContent = language.es.textCirculatingSupply;                     
+            textLearnHeader.textContent = language.es.textLearnHeader; 
+            textLitecoinDescription.textContent = language.es.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.es.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.es.textZeroTitle; 
+            textMWEBTitle.textContent = language.es.textMWEBTitle; 
+            textCheapTitle.textContent = language.es.textCheapTitle; 
+            textFastTitle.textContent = language.es.textFastTitle; 
+            textZeroDetail.textContent = language.es.textZeroDetail; 
+            textMWEBDetail.textContent = language.es.textMWEBDetail; 
+            textCheapDetail.textContent = language.es.textCheapDetail; 
+            textFastDetail.textContent = language.es.textFastDetail; 
+            textPartnerHeadline.textContent = language.es.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.es.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.es.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.es.textSimplexDetail; 
+            textUDDetail.textContent = language.es.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.es.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.es.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.es.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.es.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.es.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.es.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.es.textDonationSubheadline; 
+            textDonationScan.textContent = language.es.textDonationScan;
+            textDonationsSend.textContent = language.es.textDonationsSend; 
+            textFooterHeadline.textContent = language.es.textFooterHeadline; 
+            textRepoHeadline.textContent = language.es.textRepoHeadline; 
+            textSocialHeadline.textContent = language.es.textSocialHeadline; 
+            textRepositories.textContent = language.es.textRepositories; 
+            textFooterSubheadline = language.es.textFooterSubheadline;
+            break;
+        case "#de":
+            document.querySelector(".selected").innerText = "Deutsch";
+            textAboutMenu.textContent  = language.de.textAboutMenu;
+            textTeamMenu.textContent = language.de.textTeamMenu;
+            textDonationMenu.textContent = language.de.textDonationMenu;
+            textSupportMenu.textContent = language.de.textSupportMenu;
+            textHalvingPrefix.textContent = language.de.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.de.textHalvingSuffix;
+            textViewCountdown.textContent = language.de.textViewCountdown;
+            textHeadline.textContent = language.de.textHeadline;
+            textSubheadline.textContent = language.de.textSubheadline; 
+            textYearCreated.textContent = language.de.textYearCreated; 
+            textMarketPrice.textContent = language.de.textMarketPrice;  
+            textMarketCap.textContent  = language.de.textMarketCap;  
+            textMaxSupply.textContent = language.de.textMaxSupply; 
+            textCirculatingSupply.textContent = language.de.textCirculatingSupply;                      
+            textLearnHeader.textContent = language.de.textLearnHeader; 
+            textLitecoinDescription.textContent = language.de.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.de.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.de.textZeroTitle; 
+            textMWEBTitle.textContent = language.de.textMWEBTitle; 
+            textCheapTitle.textContent = language.de.textCheapTitle; 
+            textFastTitle.textContent = language.de.textFastTitle; 
+            textZeroDetail.textContent = language.de.textZeroDetail; 
+            textMWEBDetail.textContent = language.de.textMWEBDetail; 
+            textCheapDetail.textContent = language.de.textCheapDetail; 
+            textFastDetail.textContent = language.de.textFastDetail; 
+            textPartnerHeadline.textContent = language.de.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.de.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.de.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.de.textSimplexDetail; 
+            textUDDetail.textContent = language.de.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.de.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.de.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.de.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.de.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.de.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.de.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.de.textDonationSubheadline; 
+            textDonationScan.textContent = language.de.textDonationScan;
+            textDonationsSend.textContent = language.de.textDonationsSend; 
+            textFooterHeadline.textContent = language.de.textFooterHeadline; 
+            textRepoHeadline.textContent = language.de.textRepoHeadline; 
+            textSocialHeadline.textContent = language.de.textSocialHeadline; 
+            textRepositories.textContent = language.de.textRepositories; 
+            textFooterSubheadline = language.de.textFooterSubheadline;  
+            break;
+        case "#pt":
+            document.querySelector(".selected").innerText = "Portuguese";
+            textAboutMenu.textContent  = language.pt.textAboutMenu;
+            textTeamMenu.textContent = language.pt.textTeamMenu;
+            textDonationMenu.textContent = language.pt.textDonationMenu;
+            textSupportMenu.textContent = language.pt.textSupportMenu;
+            textHalvingPrefix.textContent = language.pt.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.pt.textHalvingSuffix;
+            textViewCountdown.textContent = language.pt.textViewCountdown;
+            textHeadline.textContent = language.pt.textHeadline;
+            textSubheadline.textContent = language.pt.textSubheadline; 
+            textYearCreated.textContent = language.pt.textYearCreated; 
+            textMarketPrice.textContent = language.pt.textMarketPrice;  
+            textMarketCap.textContent  = language.pt.textMarketCap; 
+            textMaxSupply.textContent = language.pt.textMaxSupply; 
+            textCirculatingSupply.textContent = language.pt.textCirculatingSupply;                      
+            textLearnHeader.textContent = language.pt.textLearnHeader; 
+            textLitecoinDescription.textContent = language.pt.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.pt.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.pt.textZeroTitle; 
+            textMWEBTitle.textContent = language.pt.textMWEBTitle; 
+            textCheapTitle.textContent = language.pt.textCheapTitle; 
+            textFastTitle.textContent = language.pt.textFastTitle; 
+            textZeroDetail.textContent = language.pt.textZeroDetail; 
+            textMWEBDetail.textContent = language.pt.textMWEBDetail; 
+            textCheapDetail.textContent = language.pt.textCheapDetail; 
+            textFastDetail.textContent = language.pt.textFastDetail; 
+            textPartnerHeadline.textContent = language.pt.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.pt.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.pt.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.pt.textSimplexDetail; 
+            textUDDetail.textContent = language.pt.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.pt.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.pt.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.pt.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.pt.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.pt.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.pt.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.pt.textDonationSubheadline; 
+            textDonationScan.textContent = language.pt.textDonationScan;
+            textDonationsSend.textContent = language.pt.textDonationsSend; 
+            textFooterHeadline.textContent = language.pt.textFooterHeadline; 
+            textRepoHeadline.textContent = language.pt.textRepoHeadline; 
+            textSocialHeadline.textContent = language.pt.textSocialHeadline; 
+            textRepositories.textContent = language.pt.textRepositories; 
+            textFooterSubheadline = language.pt.textFooterSubheadline;  
+            break;
+        case "#ko":
+            document.querySelector(".selected").innerText = "한국인";
+            textAboutMenu.textContent  = language.ko.textAboutMenu;
+            textTeamMenu.textContent = language.ko.textTeamMenu;
+            textDonationMenu.textContent = language.ko.textDonationMenu;
+            textSupportMenu.textContent = language.ko.textSupportMenu;
+            textHalvingPrefix.textContent = language.ko.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.ko.textHalvingSuffix;
+            textViewCountdown.textContent = language.ko.textViewCountdown;
+            textHeadline.textContent = language.ko.textHeadline;
+            textSubheadline.textContent = language.ko.textSubheadline; 
+            textYearCreated.textContent = language.ko.textYearCreated; 
+            textMarketPrice.textContent = language.ko.textMarketPrice;  
+            textMarketCap.textContent  = language.ko.textMarketCap;  
+            textMaxSupply.textContent = language.ko.textMaxSupply; 
+            textCirculatingSupply.textContent = language.ko.textCirculatingSupply;   
+            textLearnHeader.textContent = language.ko.textLearnHeader; 
+            textLitecoinDescription.textContent = language.ko.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.ko.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.ko.textZeroTitle; 
+            textMWEBTitle.textContent = language.ko.textMWEBTitle; 
+            textCheapTitle.textContent = language.ko.textCheapTitle; 
+            textFastTitle.textContent = language.ko.textFastTitle; 
+            textZeroDetail.textContent = language.ko.textZeroDetail; 
+            textMWEBDetail.textContent = language.ko.textMWEBDetail; 
+            textCheapDetail.textContent = language.ko.textCheapDetail; 
+            textFastDetail.textContent = language.ko.textFastDetail; 
+            textPartnerHeadline.textContent = language.ko.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.ko.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.ko.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.ko.textSimplexDetail; 
+            textUDDetail.textContent = language.ko.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.ko.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.ko.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.ko.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.ko.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.ko.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.ko.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.ko.textDonationSubheadline; 
+            textDonationScan.textContent = language.ko.textDonationScan;
+            textDonationsSend.textContent = language.ko.textDonationsSend; 
+            textFooterHeadline.textContent = language.ko.textFooterHeadline; 
+            textRepoHeadline.textContent = language.ko.textRepoHeadline; 
+            textSocialHeadline.textContent = language.ko.textSocialHeadline; 
+            textRepositories.textContent = language.ko.textRepositories; 
+            textFooterSubheadline = language.ko.textFooterSubheadline;
+            break;
+        case "#uk":
+            document.querySelector(".selected").innerText = "українська";
+            textAboutMenu.textContent  = language.uk.textAboutMenu;
+            textTeamMenu.textContent = language.uk.textTeamMenu;
+            textDonationMenu.textContent = language.uk.textDonationMenu;
+            textSupportMenu.textContent = language.uk.textSupportMenu;
+            textHalvingPrefix.textContent = language.uk.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.uk.textHalvingSuffix;
+            textViewCountdown.textContent = language.uk.textViewCountdown;
+            textHeadline.textContent = language.uk.textHeadline;
+            textSubheadline.textContent = language.uk.textSubheadline; 
+            textYearCreated.textContent = language.uk.textYearCreated; 
+            textMarketPrice.textContent = language.uk.textMarketPrice;  
+            textMarketCap.textContent  = language.uk.textMarketCap; 
+            textMaxSupply.textContent = language.uk.textMaxSupply; 
+            textCirculatingSupply.textContent = language.uk.textCirculatingSupply;                    
+            textLearnHeader.textContent = language.uk.textLearnHeader; 
+            textLitecoinDescription.textContent = language.uk.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.uk.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.uk.textZeroTitle; 
+            textMWEBTitle.textContent = language.uk.textMWEBTitle; 
+            textCheapTitle.textContent = language.uk.textCheapTitle; 
+            textFastTitle.textContent = language.uk.textFastTitle; 
+            textZeroDetail.textContent = language.uk.textZeroDetail; 
+            textMWEBDetail.textContent = language.uk.textMWEBDetail; 
+            textCheapDetail.textContent = language.uk.textCheapDetail; 
+            textFastDetail.textContent = language.uk.textFastDetail; 
+            textPartnerHeadline.textContent = language.uk.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.uk.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.uk.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.uk.textSimplexDetail; 
+            textUDDetail.textContent = language.uk.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.uk.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.uk.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.uk.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.uk.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.uk.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.uk.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.uk.textDonationSubheadline; 
+            textDonationScan.textContent = language.uk.textDonationScan;
+            textDonationsSend.textContent = language.uk.textDonationsSend; 
+            textFooterHeadline.textContent = language.uk.textFooterHeadline; 
+            textRepoHeadline.textContent = language.uk.textRepoHeadline; 
+            textSocialHeadline.textContent = language.uk.textSocialHeadline; 
+            textRepositories.textContent = language.uk.textRepositories; 
+            textFooterSubheadline = language.uk.textFooterSubheadline;
+            break;
+        case "#ru":
+            document.querySelector(".selected").innerText = "Русский";
+            textAboutMenu.textContent  = language.ru.textAboutMenu;
+            textTeamMenu.textContent = language.ru.textTeamMenu;
+            textDonationMenu.textContent = language.ru.textDonationMenu;
+            textSupportMenu.textContent = language.ru.textSupportMenu;
+            textHalvingPrefix.textContent = language.ru.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.ru.textHalvingSuffix;
+            textViewCountdown.textContent = language.ru.textViewCountdown;
+            textHeadline.textContent = language.ru.textHeadline;
+            textSubheadline.textContent = language.ru.textSubheadline; 
+            textYearCreated.textContent = language.ru.textYearCreated; 
+            textMarketPrice.textContent = language.ru.textMarketPrice;  
+            textMarketCap.textContent  = language.ru.textMarketCap;  
+            textMaxSupply.textContent = language.ru.textMaxSupply; 
+            textCirculatingSupply.textContent = language.ru.textCirculatingSupply; 
+            textLearnHeader.textContent = language.ru.textLearnHeader; 
+            textLitecoinDescription.textContent = language.ru.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.ru.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.ru.textZeroTitle; 
+            textMWEBTitle.textContent = language.ru.textMWEBTitle; 
+            textCheapTitle.textContent = language.ru.textCheapTitle; 
+            textFastTitle.textContent = language.ru.textFastTitle; 
+            textZeroDetail.textContent = language.ru.textZeroDetail; 
+            textMWEBDetail.textContent = language.ru.textMWEBDetail; 
+            textCheapDetail.textContent = language.ru.textCheapDetail; 
+            textFastDetail.textContent = language.ru.textFastDetail; 
+            textPartnerHeadline.textContent = language.ru.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.ru.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.ru.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.ru.textSimplexDetail; 
+            textUDDetail.textContent = language.ru.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.ru.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.ru.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.ru.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.ru.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.ru.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.ru.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.ru.textDonationSubheadline; 
+            textDonationScan.textContent = language.ru.textDonationScan;
+            textDonationsSend.textContent = language.ru.textDonationsSend; 
+            textFooterHeadline.textContent = language.ru.textFooterHeadline; 
+            textRepoHeadline.textContent = language.ru.textRepoHeadline; 
+            textSocialHeadline.textContent = language.ru.textSocialHeadline; 
+            textRepositories.textContent = language.ru.textRepositories; 
+            textFooterSubheadline = language.ru.textFooterSubheadline;
+            break;
+        case "#fr":
+            document.querySelector(".selected").innerText = "Français";
+            textAboutMenu.textContent  = language.fr.textAboutMenu;
+            textTeamMenu.textContent = language.fr.textTeamMenu;
+            textDonationMenu.textContent = language.fr.textDonationMenu;
+            textSupportMenu.textContent = language.fr.textSupportMenu;
+            textHalvingPrefix.textContent = language.fr.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.fr.textHalvingSuffix;
+            textViewCountdown.textContent = language.fr.textViewCountdown;
+            textHeadline.textContent = language.fr.textHeadline;
+            textSubheadline.textContent = language.fr.textSubheadline; 
+            textYearCreated.textContent = language.fr.textYearCreated; 
+            textMarketPrice.textContent = language.fr.textMarketPrice;  
+            textMarketCap.textContent  = language.fr.textMarketCap;  
+            textMaxSupply.textContent = language.fr.textMaxSupply; 
+            textCirculatingSupply.textContent = language.fr.textCirculatingSupply;                     
+            textLearnHeader.textContent = language.fr.textLearnHeader; 
+            textLitecoinDescription.textContent = language.fr.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.fr.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.fr.textZeroTitle; 
+            textMWEBTitle.textContent = language.fr.textMWEBTitle; 
+            textCheapTitle.textContent = language.fr.textCheapTitle; 
+            textFastTitle.textContent = language.fr.textFastTitle; 
+            textZeroDetail.textContent = language.fr.textZeroDetail; 
+            textMWEBDetail.textContent = language.fr.textMWEBDetail; 
+            textCheapDetail.textContent = language.fr.textCheapDetail; 
+            textFastDetail.textContent = language.fr.textFastDetail; 
+            textPartnerHeadline.textContent = language.fr.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.fr.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.fr.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.fr.textSimplexDetail; 
+            textUDDetail.textContent = language.fr.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.fr.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.fr.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.fr.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.fr.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.fr.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.fr.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.fr.textDonationSubheadline; 
+            textDonationScan.textContent = language.fr.textDonationScan;
+            textDonationsSend.textContent = language.fr.textDonationsSend; 
+            textFooterHeadline.textContent = language.fr.textFooterHeadline; 
+            textRepoHeadline.textContent = language.fr.textRepoHeadline; 
+            textSocialHeadline.textContent = language.fr.textSocialHeadline; 
+            textRepositories.textContent = language.fr.textRepositories; 
+            textFooterSubheadline = language.fr.textFooterSubheadline;  
+            break;
+        case "#zhCN":
+            document.querySelector(".selected").innerText = "中国人";
+            textAboutMenu.textContent  = language.zhCN.textAboutMenu;
+            textTeamMenu.textContent = language.zhCN.textTeamMenu;
+            textDonationMenu.textContent = language.zhCN.textDonationMenu;
+            textSupportMenu.textContent = language.zhCN.textSupportMenu;
+            textHalvingPrefix.textContent = language.zhCN.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.zhCN.textHalvingSuffix;
+            textViewCountdown.textContent = language.zhCN.textViewCountdown;
+            textHeadline.textContent = language.zhCN.textHeadline;
+            textSubheadline.textContent = language.zhCN.textSubheadline; 
+            textYearCreated.textContent = language.zhCN.textYearCreated; 
+            textMarketPrice.textContent = language.zhCN.textMarketPrice;  
+            textMarketCap.textContent  = language.zhCN.textMarketCap; 
+            textMaxSupply.textContent = language.zhCN.textMaxSupply; 
+            textCirculatingSupply.textContent = language.zhCN.textCirculatingSupply;  
+            textLearnHeader.textContent = language.zhCN.textLearnHeader; 
+            textLitecoinDescription.textContent = language.zhCN.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.zhCN.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.zhCN.textZeroTitle; 
+            textMWEBTitle.textContent = language.zhCN.textMWEBTitle; 
+            textCheapTitle.textContent = language.zhCN.textCheapTitle; 
+            textFastTitle.textContent = language.zhCN.textFastTitle; 
+            textZeroDetail.textContent = language.zhCN.textZeroDetail; 
+            textMWEBDetail.textContent = language.zhCN.textMWEBDetail; 
+            textCheapDetail.textContent = language.zhCN.textCheapDetail; 
+            textFastDetail.textContent = language.zhCN.textFastDetail; 
+            textPartnerHeadline.textContent = language.zhCN.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.zhCN.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.zhCN.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.zhCN.textSimplexDetail; 
+            textUDDetail.textContent = language.zhCN.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.zhCN.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.zhCN.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.zhCN.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.zhCN.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.zhCN.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.zhCN.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.zhCN.textDonationSubheadline;
+            textDonationScan.textContent = language.zhCN.textDonationScan; 
+            textDonationsSend.textContent = language.zhCN.textDonationsSend; 
+            textFooterHeadline.textContent = language.zhCN.textFooterHeadline; 
+            textRepoHeadline.textContent = language.zhCN.textRepoHeadline; 
+            textSocialHeadline.textContent = language.zhCN.textSocialHeadline; 
+            textRepositories.textContent = language.zhCN.textRepositories; 
+            textFooterSubheadline = language.zhCN.textFooterSubheadline;  
+            break;
+        case "#tr":
+            document.querySelector(".selected").innerText = "Türkçe";
+            textAboutMenu.textContent  = language.tr.textAboutMenu;
+            textTeamMenu.textCoent = language.tr.textTeamMenu;
+            textDonationMenu.textContent = language.tr.textDonationMenu;
+            textSupportMenu.textContent = language.tr.textSupportMenu;
+            textHalvingPrefix.textContent = language.tr.textHalvingPrefix;
+            textHalvingSuffix.textContent = language.tr.textHalvingSuffix;
+            textViewCountdown.textContent = language.tr.textViewCountdown;
+            textHeadline.textContent = language.tr.textHeadline;
+            textSubheadline.textContent = language.tr.textSubheadline; 
+            textYearCreated.textContent = language.tr.textYearCreated; 
+            textMarketPrice.textContent = language.tr.textMarketPrice;  
+            textMarketCap.textContent  = language.tr.textMarketCap; 
+            textMaxSupply.textContent = language.tr.textMaxSupply; 
+            textCirculatingSupply.textContent = language.tr.textCirculatingSupply; 
+            textLearnHeader.textContent = language.tr.textLearnHeader; 
+            textLitecoinDescription.textContent = language.tr.textLitecoinDescription; 
+            textLitecoinDescriptionStyled.textContent = language.tr.textLitecoinDescriptionStyled; 
+            textZeroTitle.textContent = language.tr.textZeroTitle; 
+            textMWEBTitle.textContent = language.tr.textMWEBTitle; 
+            textCheapTitle.textContent = language.tr.textCheapTitle; 
+            textFastTitle.textContent = language.tr.textFastTitle; 
+            textZeroDetail.textContent = language.tr.textZeroDetail; 
+            textMWEBDetail.textContent = language.tr.textMWEBDetail; 
+            textCheapDetail.textContent = language.tr.textCheapDetail; 
+            textFastDetail.textContent = language.tr.textFastDetail; 
+            textPartnerHeadline.textContent = language.tr.textPartnerHeadline; 
+            textBitrefillDetail.textContent = language.tr.textBitrefillDetail; 
+            textMoonpayDetail.textContent = language.tr.textMoonpayDetail; 
+            textSimplexDetail.textContent = language.tr.textSimplexDetail; 
+            textUDDetail.textContent = language.tr.textUDDetail; 
+            textLitecoinCreatorHeadline.textContent = language.tr.textLitecoinCreatorHeadline; 
+            textLitecoinCreatorSubheadline.textContent = language.tr.textLitecoinCreatorSubheadline; 
+            textTeamHeadline.textContent = language.tr.textTeamHeadline; 
+            textTeamSubheadline.textContent = language.tr.textTeamSubheadline; 
+            textVolunteerHeadline.textContent = language.tr.textVolunteerHeadline; 
+            textDonationHeadline.textContent = language.tr.textDonationHeadline; 
+            textDonationSubheadline.textContent = language.tr.textDonationSubheadline; 
+            textDonationScan.textContent = language.tr.textDonationScan;
+            textDonationsSend.textContent = language.tr.textDonationsSend; 
+            textFooterHeadline.textContent = language.tr.textFooterHeadline; 
+            textRepoHeadline.textContent = language.tr.textRepoHeadline; 
+            textSocialHeadline.textContent = language.tr.textSocialHeadline; 
+            textRepositories.textContent = language.tr.textRepositories; 
+            textFooterSubheadline = language.tr.textFooterSubheadline;
+            break; 
+    } 
+}
 
-        // get all dropdowns
-        const dropdownItems = document.querySelectorAll('.dropdown');
+// get all dropdowns
+const dropdownItems = document.querySelectorAll('.dropdown');
 
-        // iterate all dropdown elements
-        dropdownItems.forEach(el => {
-            // get inner elements of each dropdown
-            const select = el.querySelector('.select');
-            const caret = el.querySelector('.caret');
-            const menuDropdown = el.querySelector('.menu-dropdown');
-            const selected = el.querySelector('.selected');
-            const options = el.querySelectorAll('.menu-dropdown li');
+// iterate all dropdown elements
+dropdownItems.forEach(el => {
+    // get inner elements of each dropdown
+    const select = el.querySelector('.select');
+    const caret = el.querySelector('.caret');
+    const menuDropdown = el.querySelector('.menu-dropdown');
+    const selected = el.querySelector('.selected');
+    const options = el.querySelectorAll('.menu-dropdown li');
             
-            // click event for the select element
-            select.addEventListener('click', () => {
-                // add the styles to caret, and menu dropdown
-                caret.classList.toggle('caret-rotate');
-                menuDropdown.classList.toggle('menu-dropdown-open');
-            });
+    // click event for the select element
+    select.addEventListener('click', () => {
+        // add the styles to caret, and menu dropdown
+        caret.classList.toggle('caret-rotate');
+        menuDropdown.classList.toggle('menu-dropdown-open');
+    });
 
-            // iterate through all option elements
+    // iterate through all option elements
+    options.forEach(option => {
+        // click event for each option
+        option.addEventListener('click', () => {
+            // remove styles to the select element, caret, 
+            // menu dropdown, and active class from all option elements
+            select.classList.remove('select-clicked');
+            caret.classList.remove('caret-rotate');
+            menuDropdown.classList.remove('menu-dropdown-open');
             options.forEach(option => {
-                // click event for each option
-                option.addEventListener('click', () => {
-                    // remove styles to the select element, caret, 
-                    // menu dropdown, and active class from all option elements
-                    select.classList.remove('select-clicked');
-                    caret.classList.remove('caret-rotate');
-                    menuDropdown.classList.remove('menu-dropdown-open');
-                    options.forEach(option => {
-                        option.classList.remove('active');
-                    });
-                    // add active class to clicked option element
-                    option.classList.add('active');
-                    location.hash = option.getAttribute("data-lang");
-	                location.reload();
-                    
-                });
+                option.classList.remove('active');
             });
+            // add active class to clicked option element
+            option.classList.add('active');
+            location.hash = option.getAttribute("data-lang");
+	        location.reload();
+                    
         });
+    });
+});

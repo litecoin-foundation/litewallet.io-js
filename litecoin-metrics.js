@@ -33,32 +33,20 @@ function updateValues(market) {
 setTimeout(refreshLTCStats, ms);
 
 let isMinute = false;
-    let isDay = false;
-    let isHour = false;
     let halvingdayEl = document.getElementById("textHalvingValue");
-    let times = 0;
-		const countDownDate = new Date("2023-08-03");
+	 const countDownDate = new Date("2023-08-03");
     let counts = setInterval(() =>{
        let now = new Date();
        let difference = countDownDate.getTime() - now.getTime();
        if(difference <= ((604800000 * 4) + (86400000 * 3))){
           let minutes = Math.floor(difference / (60 * 1000));
           document.getElementById("textHalvingValue").innerText = minutes;
-          isMinute = true;
-          isDay = false;
-          isHour = false;
        }else if(difference <= ((604800000 * 8) + (86400000 * 5))){
-          let hour = Math.floor(difference / (3600 * 1000));
+          let hours = Math.floor(difference / (3600 * 1000));
           document.getElementById("textHalvingValue").innerText = hours;
-          isMinute = false;
-          isDay = false;
-          isHour = true;
        }else if(difference >= 0){
           let days = Math.floor(difference / (24 * 3600 * 1000));
           document.getElementById("textHalvingValue").innerText = days;
-          isMinute = false;
-          isDay = true;
-          isHour = false;
        }else{
           halvingdayEl.innerText.innerText = "";
        }
