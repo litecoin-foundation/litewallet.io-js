@@ -34,17 +34,11 @@ setTimeout(refreshLTCStats, ms);
 
 let isMinute = false;
     let halvingdayEl = document.getElementById("textHalvingValue");
-	 const countDownDate = new Date("2023-08-02");
+	 const countDownDate = new Date("2023-08-03");
     let counts = setInterval(() =>{
        let now = new Date();
        let difference = countDownDate.getTime() - now.getTime();
-       if(difference <= ((604800000 * 4) + (86400000 * 3))){
-          let minutes = Math.floor(difference / (60 * 1000));
-          document.getElementById("textHalvingValue").innerText = minutes;
-       }else if(difference <= ((604800000 * 8) + (86400000 * 5))){
-          let hours = Math.floor(difference / (3600 * 1000));
-          document.getElementById("textHalvingValue").innerText = hours;
-       }else if(difference >= 0){
+       if(difference > 0){
           let days = Math.floor(difference / (24 * 3600 * 1000));
           document.getElementById("textHalvingValue").innerText = days;
        }else{
