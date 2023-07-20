@@ -38,17 +38,11 @@ let isMinute = false;
     let counts = setInterval(() =>{
        let now = new Date();
        let difference = countDownDate.getTime() - now.getTime();
-       if(difference <= ((604800000 * 4) + (86400000 * 3))){
-          let minutes = Math.floor(difference / (60 * 1000));
-          document.getElementById("textHalvingValue").innerText = minutes;
-       }else if(difference <= ((604800000 * 8) + (86400000 * 5))){
-          let hours = Math.floor(difference / (3600 * 1000));
-          document.getElementById("textHalvingValue").innerText = hours;
-       }else if(difference >= 0){
+       if(difference > 0){
           let days = Math.floor(difference / (24 * 3600 * 1000));
           document.getElementById("textHalvingValue").innerText = days;
        }else{
-          halvingdayEl.innerText.innerText = "";
+          halvingdayEl.innerText.innerText = "0";
        }
  	 }, 1000);
  
@@ -56,7 +50,7 @@ let isMinute = false;
    let twoDaysEarlier = new Date("2023-08-01")
    if(now.getTime() >= twoDaysEarlier.getTime()){
       clearInterval(counts)
-      document.getElementById("textHalvingValue").innerText = "";
+      document.getElementById("textHalvingValue").innerText = "0";
    }
 
 
